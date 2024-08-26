@@ -1,0 +1,34 @@
+				@font-face {
+					font-family: 'futura-light';
+					src: url('/kromamoney.com/wp-content/uploads/useanyfont/7977Futura-Light.woff2') format('woff2'),
+						url('/kromamoney.com/wp-content/uploads/useanyfont/7977Futura-Light.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.futura-light{font-family: 'futura-light' !important;}
+
+				.et_gf_futura-light{background:none !important;font-family:futura-light;text-indent:0 !important;font-size:25px;}
+
+						@font-face {
+					font-family: 'futura-condensed';
+					src: url('/kromamoney.com/wp-content/uploads/useanyfont/7367Futura-Condensed.woff2') format('woff2'),
+						url('/kromamoney.com/wp-content/uploads/useanyfont/7367Futura-Condensed.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.futura-condensed{font-family: 'futura-condensed' !important;}
+
+				.et_gf_futura-condensed{background:none !important;font-family:futura-condensed;text-indent:0 !important;font-size:25px;}
+
+						@font-face {
+					font-family: 'futura';
+					src: url('/kromamoney.com/wp-content/uploads/useanyfont/2810Futura.woff2') format('woff2'),
+						url('/kromamoney.com/wp-content/uploads/useanyfont/2810Futura.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.futura{font-family: 'futura' !important;}
+
+				.et_gf_futura{background:none !important;font-family:futura;text-indent:0 !important;font-size:25px;}
+
+		

@@ -1,0 +1,958 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-13 10:01+0200\n"
+"PO-Revision-Date: 2021-01-08 12:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: button-woo.php:6 touchy.php:1924
+msgid "View your shopping cart"
+msgstr ""
+
+#: touchy.php:22
+msgid "Touchy Plugin"
+msgstr ""
+
+#: touchy.php:27
+msgid "Logo & Logo Area"
+msgstr ""
+
+#: touchy.php:32
+msgid "Hide logo area"
+msgstr ""
+
+#: touchy.php:32
+msgid "If selected, the entire logo area will be hidden on all pages."
+msgstr ""
+
+#: touchy.php:37
+msgid "Hide logo area background"
+msgstr ""
+
+#: touchy.php:37
+msgid "If selected, the logo area background will be transparent."
+msgstr ""
+
+#: touchy.php:42
+msgid "Hide logo area background shadow"
+msgstr ""
+
+#: touchy.php:42
+msgid "If selected, the logo area background shadow will be hidden."
+msgstr ""
+
+#: touchy.php:47
+msgid "Background"
+msgstr ""
+
+#: touchy.php:53
+msgid "Logo"
+msgstr ""
+
+#: touchy.php:59
+msgid "Logo hover"
+msgstr ""
+
+#: touchy.php:68
+msgid "Logo alignment"
+msgstr ""
+
+#: touchy.php:71
+msgid "Left"
+msgstr ""
+
+#: touchy.php:72
+msgid "Center"
+msgstr ""
+
+#: touchy.php:73
+msgid "Right"
+msgstr ""
+
+#: touchy.php:81
+msgid "Logo image"
+msgstr ""
+
+#: touchy.php:82
+msgid ""
+"<strong>How to add retina logo:</strong> Enable retina script in Misc "
+"section, then upload both the regular and retina logo files and make sure "
+"they are named correctly. If retina logo is uploaded, it will be shown on "
+"retina screens with no further setup necessary. <br><br> Example:<br> my-"
+"logo.png and my-logo@2x.png (note that the retina logo must have \"@2x\" at "
+"the end. @3x images work as well.).<br><br>"
+msgstr ""
+
+#: touchy.php:93
+msgid "Logo height (in pixels)"
+msgstr ""
+
+#: touchy.php:94
+msgid "Fine-tune logo size. Example: 30. If empty, defaults to 40."
+msgstr ""
+
+#: touchy.php:102
+msgid "Logo area background image"
+msgstr ""
+
+#: touchy.php:111
+msgid "Full background"
+msgstr ""
+
+#: touchy.php:111
+msgid ""
+"By default, the background image will be shown as a pattern. If this option "
+"is selected, it will be displayed as a full background instead."
+msgstr ""
+
+#: touchy.php:118
+msgid "Logo area background image opacity"
+msgstr ""
+
+#: touchy.php:119
+msgid "Example: 0.5 or 0.75. If empty, defaults to 0.1"
+msgstr ""
+
+#: touchy.php:126
+msgid "Menubar"
+msgstr ""
+
+#: touchy.php:133
+msgid "Font Awesome icon size (in pixels)"
+msgstr ""
+
+#: touchy.php:134
+msgid ""
+"Applied when FontAwesome icons are used instead of default menubar buttons. "
+"If empty, defaults to 22"
+msgstr ""
+
+#: touchy.php:143
+msgid "Text label font size (in pixels)"
+msgstr ""
+
+#: touchy.php:144
+msgid "If empty, defaults to 10"
+msgstr ""
+
+#: touchy.php:153
+msgid "Menu button dividers margin (in pixels)"
+msgstr ""
+
+#: touchy.php:154
+msgid ""
+"Changes the top and bottom margins for the menubar dividers. If empty, "
+"defaults to 5"
+msgstr ""
+
+#: touchy.php:161
+msgid "Menu button dividers"
+msgstr ""
+
+#: touchy.php:167
+msgid "Bottom positioning"
+msgstr ""
+
+#: touchy.php:167
+msgid "If selected, menu buttons will be placed at the bottom of the screen."
+msgstr ""
+
+#: touchy.php:172
+msgid "Hide menu button dividers"
+msgstr ""
+
+#: touchy.php:172
+msgid ""
+"If you want an even cleaner look, this option hides the vertical dividers "
+"between the menubar menu buttons."
+msgstr ""
+
+#: touchy.php:177
+msgid "Increase menubar shadow on scroll"
+msgstr ""
+
+#: touchy.php:177
+msgid ""
+"When page is scrolled down, menubar shadow size is subtly increased for "
+"effect. Note: Only applies when bottom positioning not selected."
+msgstr ""
+
+#: touchy.php:182
+msgid "Hide menubar shadow"
+msgstr ""
+
+#: touchy.php:182
+msgid "Note: Shadow size increase on scroll option can still be applied."
+msgstr ""
+
+#: touchy.php:187
+msgid "Show menubar borders at the top"
+msgstr ""
+
+#: touchy.php:187
+msgid ""
+"When enabled, the colored menubar borders will appear at the bottom (border "
+"colors are set in individual button sections)."
+msgstr ""
+
+#: touchy.php:194
+msgid "Menubar height (in pixels)"
+msgstr ""
+
+#: touchy.php:195
+msgid "Example: 75. If emtpy, defaults to 50."
+msgstr ""
+
+#: touchy.php:204
+msgid "Menubar transparency (from 0-1)"
+msgstr ""
+
+#: touchy.php:205
+msgid ""
+"Example: 0.9 or 0.95. If emtpy, defaults to 1. You probably want to keep "
+"this at 0.95 and above, to have that very subtle see-through effect. "
+"Depending on how you color customize your menu though, you could go lower."
+msgstr ""
+
+#: touchy.php:214
+msgid "Menubar margin (in pixels)"
+msgstr ""
+
+#: touchy.php:215
+msgid ""
+"Sets custom menubar distance from edges of screen. Example: 5 or 10. If "
+"emtpy, defaults to 0."
+msgstr ""
+
+#: touchy.php:224
+msgid "Menubar top corner roundness (in pixels)"
+msgstr ""
+
+#: touchy.php:225 touchy.php:235
+msgid "Example: 5 or 50. If emtpy, defaults to 0."
+msgstr ""
+
+#: touchy.php:234
+msgid "Menubar bottom corner roundness (in pixels)"
+msgstr ""
+
+#: touchy.php:242
+msgid "Back Button"
+msgstr ""
+
+#: touchy.php:247
+msgid "Hide back button"
+msgstr ""
+
+#: touchy.php:247
+msgid "If selected, the Back button will be hidden on all pages."
+msgstr ""
+
+#: touchy.php:252
+msgid "Alternate back icon"
+msgstr ""
+
+#: touchy.php:252 touchy.php:355
+msgid "Display an alternate call icon design."
+msgstr ""
+
+#: touchy.php:257 touchy.php:360 touchy.php:473 touchy.php:596 touchy.php:694
+#: touchy.php:799
+msgid "Display only when logged in"
+msgstr ""
+
+#: touchy.php:257 touchy.php:360 touchy.php:473 touchy.php:596 touchy.php:694
+#: touchy.php:799
+msgid "When ticked, only users who have logged in will see this button."
+msgstr ""
+
+#: touchy.php:262 touchy.php:375 touchy.php:498 touchy.php:601 touchy.php:737
+#: touchy.php:810
+msgid "Button background"
+msgstr ""
+
+#: touchy.php:268 touchy.php:381 touchy.php:504 touchy.php:607 touchy.php:743
+#: touchy.php:816
+msgid "Button background hover"
+msgstr ""
+
+#: touchy.php:274 touchy.php:387 touchy.php:510 touchy.php:613 touchy.php:822
+msgid "Button icon"
+msgstr ""
+
+#: touchy.php:280 touchy.php:393 touchy.php:516 touchy.php:619 touchy.php:828
+msgid "Button icon hover"
+msgstr ""
+
+#: touchy.php:288 touchy.php:296 touchy.php:401 touchy.php:409 touchy.php:524
+#: touchy.php:532 touchy.php:627 touchy.php:635 touchy.php:751 touchy.php:759
+#: touchy.php:836 touchy.php:844
+msgid "Text label"
+msgstr ""
+
+#: touchy.php:289 touchy.php:402 touchy.php:525 touchy.php:628 touchy.php:752
+#: touchy.php:837
+msgid "A text label to be shown below icon"
+msgstr ""
+
+#: touchy.php:302 touchy.php:415 touchy.php:538 touchy.php:641 touchy.php:765
+#: touchy.php:850
+msgid "Text label hover"
+msgstr ""
+
+#: touchy.php:308 touchy.php:421 touchy.php:544 touchy.php:647 touchy.php:771
+#: touchy.php:856
+msgid "Border"
+msgstr ""
+
+#: touchy.php:314 touchy.php:427 touchy.php:550 touchy.php:653 touchy.php:777
+#: touchy.php:862
+msgid "Border hover"
+msgstr ""
+
+#: touchy.php:322 touchy.php:435 touchy.php:558 touchy.php:661 touchy.php:870
+msgid "Custom icon"
+msgstr ""
+
+#: touchy.php:323 touchy.php:436 touchy.php:559 touchy.php:662 touchy.php:871
+msgid ""
+"Icons can be viewed <a href=\"https://fontawesome.com/cheatsheet\" target="
+"\"_blank\" style=\"text-decoration:underline;\">here</a> (the icon names "
+"are <strong>fas fa-heartbeat</strong>, <strong>far fa-calendar</strong>, "
+"<strong>fab fa-wordpress</strong> etc). Please find detailed information in "
+"the Touchy documentation. When empty, default icon is shown."
+msgstr ""
+
+#: touchy.php:332 touchy.php:445
+msgid "Link override"
+msgstr ""
+
+#: touchy.php:333
+msgid ""
+"If you would like to override the back button function with a custom link, "
+"enter it below. Combined with a custom icon (set above), this allows you to "
+"give the back button a completely different function. If left empty, "
+"defaults to back function."
+msgstr ""
+
+#: touchy.php:340 touchy.php:453 touchy.php:576 touchy.php:679 touchy.php:888
+msgid "Open in new tab/window"
+msgstr ""
+
+#: touchy.php:345
+msgid "Call Button"
+msgstr ""
+
+#: touchy.php:350
+msgid "Hide call button"
+msgstr ""
+
+#: touchy.php:350
+msgid "If selected, the Call button will be hidden on all pages."
+msgstr ""
+
+#: touchy.php:355
+msgid "Alternate call icon"
+msgstr ""
+
+#: touchy.php:367
+msgid "Phone number"
+msgstr ""
+
+#: touchy.php:368
+msgid "Enter your phone number"
+msgstr ""
+
+#: touchy.php:446
+msgid ""
+"If you would like to override the call button function with a custom link, "
+"enter it below. Combined with a custom icon (set above), this allows you to "
+"give the call button a completely different function. If left empty, "
+"defaults to call function."
+msgstr ""
+
+#: touchy.php:458
+msgid "Email Button"
+msgstr ""
+
+#: touchy.php:463
+msgid "Hide email button"
+msgstr ""
+
+#: touchy.php:463
+msgid "If selected, the Email button will be hidden on all pages."
+msgstr ""
+
+#: touchy.php:468
+msgid "Alternate email icon"
+msgstr ""
+
+#: touchy.php:468
+msgid "Display an alternate email icon design."
+msgstr ""
+
+#: touchy.php:480
+msgid "Email address"
+msgstr ""
+
+#: touchy.php:481
+msgid "Enter your email address"
+msgstr ""
+
+#: touchy.php:490
+msgid "Email subject"
+msgstr ""
+
+#: touchy.php:491
+msgid ""
+"Enter the default email subject. If empty, subject will be left to the user "
+"to fill."
+msgstr ""
+
+#: touchy.php:568
+msgid "Email address override"
+msgstr ""
+
+#: touchy.php:569
+msgid ""
+"If you would like to override the email button function with a custom link, "
+"enter it below. Combined with a custom icon (set above), this allows you to "
+"give the email button a completely different function. If left empty, "
+"defaults to email function."
+msgstr ""
+
+#: touchy.php:581
+msgid "Search Button"
+msgstr ""
+
+#: touchy.php:586
+msgid "Hide search button"
+msgstr ""
+
+#: touchy.php:586
+msgid "If selected, the Search button will be hidden on all pages."
+msgstr ""
+
+#: touchy.php:591
+msgid "Alternate search icon"
+msgstr ""
+
+#: touchy.php:591
+msgid "Display an alternate search icon design."
+msgstr ""
+
+#: touchy.php:671
+msgid "Search link override"
+msgstr ""
+
+#: touchy.php:672
+msgid ""
+"If you would like to override the search button function with a custom "
+"link, enter it below. Combined with a custom icon (set above), this allows "
+"you to give the search button a completely different function. If left "
+"empty, defaults to search function."
+msgstr ""
+
+#: touchy.php:684
+msgid "WooCommerce Button"
+msgstr ""
+
+#: touchy.php:689
+msgid "Show WooCommerce button"
+msgstr ""
+
+#: touchy.php:689
+msgid "When enabled, icon will be shown when WooCommerce also activated."
+msgstr ""
+
+#: touchy.php:789
+msgid "Menu Button"
+msgstr ""
+
+#: touchy.php:794
+msgid "Hide menu button"
+msgstr ""
+
+#: touchy.php:794
+msgid ""
+"Useful if you would like to show only the email and call buttons for example"
+msgstr ""
+
+#: touchy.php:804
+msgid "Animate menu button"
+msgstr ""
+
+#: touchy.php:804
+msgid ""
+"When enabled, menu button icon will animate into X symbol when menu is "
+"opened"
+msgstr ""
+
+#: touchy.php:880
+msgid "Menu button link override"
+msgstr ""
+
+#: touchy.php:881
+msgid ""
+"If you would like to override the menu button function with a custom link, "
+"enter it below. Combined with a custom icon (set above), this allows you to "
+"give the menu button a completely different function. If left empty, "
+"defaults to menu button function."
+msgstr ""
+
+#: touchy.php:893
+msgid "Button Order"
+msgstr ""
+
+#: touchy.php:893
+msgid ""
+"Please note: The menu button can not be re-positioned due to the more "
+"complex positioning properties of the multi-level drop-down menu."
+msgstr ""
+
+#: touchy.php:901
+msgid "1st button"
+msgstr ""
+
+#: touchy.php:904 touchy.php:921 touchy.php:938 touchy.php:955 touchy.php:972
+msgid "Back button"
+msgstr ""
+
+#: touchy.php:905 touchy.php:922 touchy.php:939 touchy.php:956 touchy.php:973
+msgid "Call button"
+msgstr ""
+
+#: touchy.php:906 touchy.php:923 touchy.php:940 touchy.php:957 touchy.php:974
+msgid "Email button"
+msgstr ""
+
+#: touchy.php:907 touchy.php:924 touchy.php:941 touchy.php:958 touchy.php:975
+msgid "Search button"
+msgstr ""
+
+#: touchy.php:908 touchy.php:925 touchy.php:942 touchy.php:959 touchy.php:976
+msgid "WooCommerce button"
+msgstr ""
+
+#: touchy.php:918
+msgid "2nd button"
+msgstr ""
+
+#: touchy.php:935
+msgid "3rd button"
+msgstr ""
+
+#: touchy.php:952
+msgid "4th button"
+msgstr ""
+
+#: touchy.php:969
+msgid "5th button"
+msgstr ""
+
+#: touchy.php:983
+msgid "Search Field"
+msgstr ""
+
+#: touchy.php:988
+msgid "Full-screen search"
+msgstr ""
+
+#: touchy.php:988
+msgid "If selected, an alternate full-screen search layout will be displayed."
+msgstr ""
+
+#: touchy.php:995
+msgid "Placeholder text"
+msgstr ""
+
+#: touchy.php:996
+msgid ""
+"Enter custom search field placeholder text. If empty, will default to "
+"\"Enter search term...\""
+msgstr ""
+
+#: touchy.php:1005
+msgid "Button text"
+msgstr ""
+
+#: touchy.php:1006
+msgid "Enter custom search button text. If empty, will default to \"Search\""
+msgstr ""
+
+#: touchy.php:1013
+msgid "Hide clear field option"
+msgstr ""
+
+#: touchy.php:1013
+msgid ""
+"If selected, the clear field option on the search field will be hidden."
+msgstr ""
+
+#: touchy.php:1018
+msgid "Hide \"Search\" button"
+msgstr ""
+
+#: touchy.php:1018
+msgid "If selected, the \"Search\" button will be hidden."
+msgstr ""
+
+#: touchy.php:1023
+msgid "Disable auto-focus"
+msgstr ""
+
+#: touchy.php:1028
+msgid "Search field placeholder text"
+msgstr ""
+
+#: touchy.php:1034
+msgid "Search field text"
+msgstr ""
+
+#: touchy.php:1040
+msgid "\"Clear field\" button"
+msgstr ""
+
+#: touchy.php:1046
+msgid "Search field background"
+msgstr ""
+
+#: touchy.php:1052
+msgid "Search button text"
+msgstr ""
+
+#: touchy.php:1058
+msgid "Search button background"
+msgstr ""
+
+#: touchy.php:1064
+msgid "Full-screen search background"
+msgstr ""
+
+#: touchy.php:1071
+msgid "Full-screen search background image"
+msgstr ""
+
+#: touchy.php:1080
+msgid "Display background image as pattern"
+msgstr ""
+
+#: touchy.php:1085
+msgid "Drop-Down Menu"
+msgstr ""
+
+#: touchy.php:1093
+msgid "Sub-menu arrow animation"
+msgstr ""
+
+#: touchy.php:1096
+msgid "Down arrow"
+msgstr ""
+
+#: touchy.php:1097
+msgid "X sign"
+msgstr ""
+
+#: touchy.php:1104
+msgid "Close menu after click"
+msgstr ""
+
+#: touchy.php:1104
+msgid ""
+"Close menu when menu item is clicked/tapped (useful on one-page websites "
+"where menu links lead to anchors, not new pages)."
+msgstr ""
+
+#: touchy.php:1119
+msgid "Menu item font size (in pixels)"
+msgstr ""
+
+#: touchy.php:1119 touchy.php:1134
+msgid "If empty, defaults to 13"
+msgstr ""
+
+#: touchy.php:1124
+msgid "Menu item line height (in pixels)"
+msgstr ""
+
+#: touchy.php:1124 touchy.php:1139
+msgid "If empty, defaults to 16"
+msgstr ""
+
+#: touchy.php:1129
+msgid "Menu description top margin (in pixels)"
+msgstr ""
+
+#: touchy.php:1129
+msgid ""
+"The space between a menu item and its description (if one is entered). If "
+"empty, defaults to 4"
+msgstr ""
+
+#: touchy.php:1134
+msgid "Menu description font size (in pixels)"
+msgstr ""
+
+#: touchy.php:1139
+msgid "Menu description line height (in pixels)"
+msgstr ""
+
+#: touchy.php:1144
+msgid "Advanced feature: Use theme fonts"
+msgstr ""
+
+#: touchy.php:1144
+msgid ""
+"If you know the name of and would like to use your theme font(s), enter it "
+"in the textfield below as it appears in the theme stylesheet (font "
+"selection will be automatically overriden)."
+msgstr ""
+
+#: touchy.php:1149
+msgid "Menu item icon size (in pixels)"
+msgstr ""
+
+#: touchy.php:1149
+msgid "If empty, defaults to 12"
+msgstr ""
+
+#: touchy.php:1154
+msgid "Corner roundness (in pixels)"
+msgstr ""
+
+#: touchy.php:1154
+msgid "If empty, defaults to 2"
+msgstr ""
+
+#: touchy.php:1159
+msgid "Menu end marker thickness (in pixels)"
+msgstr ""
+
+#: touchy.php:1159
+msgid "If empty, defaults to 3"
+msgstr ""
+
+#: touchy.php:1164
+msgid "Menu background"
+msgstr ""
+
+#: touchy.php:1170
+msgid "Tooltip"
+msgstr ""
+
+#: touchy.php:1176
+msgid "Sub-menu background"
+msgstr ""
+
+#: touchy.php:1182
+msgid "Menu end marker"
+msgstr ""
+
+#: touchy.php:1188
+msgid "Horizontal menu item divider"
+msgstr ""
+
+#: touchy.php:1194
+msgid "Horizontal menu item divider (sub-menu)"
+msgstr ""
+
+#: touchy.php:1200
+msgid "Sub-menu arrow separator"
+msgstr ""
+
+#: touchy.php:1206
+msgid "Sub-menu arrow separator (sub-menu)"
+msgstr ""
+
+#: touchy.php:1212
+msgid "Expand icon"
+msgstr ""
+
+#: touchy.php:1218
+msgid "Expand icon hover"
+msgstr ""
+
+#: touchy.php:1224
+msgid "Expand icon (sub-menu)"
+msgstr ""
+
+#: touchy.php:1230
+msgid "Expand icon hover (sub-menu)"
+msgstr ""
+
+#: touchy.php:1236
+msgid "Menu item"
+msgstr ""
+
+#: touchy.php:1242
+msgid "Menu item hover"
+msgstr ""
+
+#: touchy.php:1248
+msgid "Menu item icon"
+msgstr ""
+
+#: touchy.php:1254
+msgid "Menu item icon hover"
+msgstr ""
+
+#: touchy.php:1260
+msgid "Sub-menu item"
+msgstr ""
+
+#: touchy.php:1266
+msgid "Sub-menu item hover"
+msgstr ""
+
+#: touchy.php:1272
+msgid "Menu item icon (sub-menu)"
+msgstr ""
+
+#: touchy.php:1278
+msgid "Menu item icon hover (sub-menu)"
+msgstr ""
+
+#: touchy.php:1284
+msgid "Current menu item"
+msgstr ""
+
+#: touchy.php:1290
+msgid "Menu item description"
+msgstr ""
+
+#: touchy.php:1296
+msgid "Highlighted menu item"
+msgstr ""
+
+#: touchy.php:1296
+msgid ""
+"You can highlight a menu item by adding the \"marker\" class to the desired "
+"menu item in the WordPress menu builder."
+msgstr ""
+
+#: touchy.php:1302
+msgid "Misc"
+msgstr ""
+
+#: touchy.php:1307
+msgid "Absolute positioning"
+msgstr ""
+
+#: touchy.php:1307
+msgid "Note: Only applied when menubar bottom positioning not selected."
+msgstr ""
+
+#: touchy.php:1312
+msgid "Slide-in on load"
+msgstr ""
+
+#: touchy.php:1312
+msgid ""
+"When enabled, a slide-in animation is applied to the menubar upon page load."
+msgstr ""
+
+#: touchy.php:1317
+msgid "Do not load FontAwesome icon set"
+msgstr ""
+
+#: touchy.php:1317
+msgid ""
+"Useful if you only use the default menubar icons or if your theme or "
+"another plugin already loads it, to prevent it from being loaded twice "
+"unnecessarily."
+msgstr ""
+
+#: touchy.php:1322
+msgid "Enable retina image support"
+msgstr ""
+
+#: touchy.php:1322
+msgid ""
+"Please note: can potentially cause a conflict with some elements in some "
+"themes. To display image as retina when this script is disabled, simply "
+"upload the image twice as large (example: if image file height is 150, set "
+"the height value as 75)."
+msgstr ""
+
+#: touchy.php:1327
+msgid "Overlay"
+msgstr ""
+
+#: touchy.php:1335
+msgid "Overlay transparency (from 0-1)"
+msgstr ""
+
+#: touchy.php:1336
+msgid "Example: 0.5 or 0.75. If emtpy, defaults to 0.2."
+msgstr ""
+
+#: touchy.php:1343
+msgid "Widget area background"
+msgstr ""
+
+#: touchy.php:1343
+msgid "Add widgets under Appearance > Widgets"
+msgstr ""
+
+#: touchy.php:1351
+msgid "Hide at certain width/resolution"
+msgstr ""
+
+#: touchy.php:1352
+msgid ""
+"<strong>Example #1:</strong> If you want to show Touchy on desktop only, "
+"enter the values as 0 and 500. <br><br> <strong>Example #2:</strong> If you "
+"want to show Touchy on mobile only, enter the values as 500 and 5000. "
+"<br><br> Feel free to experiment with your own values to get the result "
+"that is right for you. If fields are empty, Touchy will be visible at all "
+"browser widths and resolutions. <br><br> Hide Touchy menu if browser width "
+"or screen resolution (in pixels) is between..."
+msgstr ""
+
+#: touchy.php:1361
+msgid "..and:"
+msgstr ""
+
+#: touchy.php:1370
+msgid "Advanced: Hide theme menu"
+msgstr ""
+
+#: touchy.php:1371
+msgid ""
+"If you have set Touchy to show only at a certain resolution, know the class/"
+"ID of your theme menu and would like to hide it when Touchy is visible, "
+"enter the class/ID into this field (example: \"#my-theme-menu\"). Multiple "
+"classes/IDs can be entered (separate with comma as you would in a "
+"stylesheet)."
+msgstr ""
+
+#: touchy.php:1779 touchy.php:1794
+msgid "Enter search term..."
+msgstr ""
+
+#: touchy.php:1783
+msgid "Search"
+msgstr ""
+
+#: touchy.php:2081
+msgid "Touchy Widgets (above menu)"
+msgstr ""
+
+#: touchy.php:2083 touchy.php:2093
+msgid "Drag widgets here"
+msgstr ""
+
+#: touchy.php:2091
+msgid "Touchy Widgets (below menu)"
+msgstr ""

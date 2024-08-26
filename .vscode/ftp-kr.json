@@ -1,0 +1,17 @@
+{
+    "host": "50.28.78.135",
+    "username": "ezra2007",
+    "password": "cpBTu3msTu%Q",
+    "remotePath": "/public_html/kromamoney.com",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "createSyncCache": true,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

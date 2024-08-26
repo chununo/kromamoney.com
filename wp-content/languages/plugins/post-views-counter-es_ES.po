@@ -1,0 +1,758 @@
+# Translation of Plugins - Post Views Counter - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Post Views Counter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-22 15:46:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Post Views Counter - Stable (latest release)\n"
+
+#: includes/class-settings.php:425
+msgid "Enable dynamic loading and prevent caching of the displayed views count."
+msgstr "Activa la carga dinámica y evita el almacenamiento en caché del recuento de vistas mostradas."
+
+#: includes/class-settings.php:421
+msgid "Dynamic Loading"
+msgstr "Carga dinámica"
+
+#: includes/class-dashboard.php:182
+msgid "Powered by"
+msgstr "Funciona con"
+
+#: includes/class-settings.php:1183
+msgid "Delete ALL the existing post views data. Note that this is an irreversible process!"
+msgstr "Borra TODOS los datos existentes de las vistas de las entradas. ¡Ten en cuenta que se trata de un proceso irreversible!"
+
+#: includes/class-settings.php:1169
+msgid "Click Import Views to start importing the views data."
+msgstr "Haz clic en Importar vistas para empezar a importar los datos de las vistas."
+
+#: includes/class-settings.php:1165
+msgid "Enter the meta key from which the views data is to be retrieved during import."
+msgstr "Introduce la clave meta de la que deben recuperarse los datos de las vistas durante la importación."
+
+#: includes/class-settings.php:509
+msgid "Enter your Post Views Counter Pro license key (requires Pro version to be installed and active)."
+msgstr "Introduce tu clave de licencia de Post Views Counter Pro (requiere que la versión Pro esté instalada y activa)."
+
+#: includes/class-settings.php:432
+msgid "Enable to display the views number formatted based on the locale (using the WP number_format_i18n function)."
+msgstr "Permite mostrar el número de vistas formateado según la configuración regional (utilizando la función WP number_format_i18n)."
+
+#: includes/class-settings.php:429
+msgid "Format Number"
+msgstr "Formato de número"
+
+#: includes/class-settings.php:380
+msgid "Select the time period to be included when displaying the number of views. The default display is the total number of views of the post."
+msgstr "Selecciona el periodo de tiempo que se incluirá al mostrar el número de visualizaciones. La visualización por defecto es el número total de visualizaciones de la entrada."
+
+#: includes/class-settings.php:374
+msgid "Views Period"
+msgstr "Periodo de vistas"
+
+#: includes/class-settings.php:364
+msgid "Views Label"
+msgstr "Etiqueta de vistas"
+
+#: includes/class-settings.php:306
+msgid "Cleanup Interval"
+msgstr "Intervalo de limpieza"
+
+#: includes/class-dashboard.php:108
+msgid "Displays a list of most viewed single posts or pages."
+msgstr "Muestra una lista de las entradas o páginas individuales más vistas."
+
+#: includes/class-dashboard.php:101
+msgid "Displays a chart of most viewed post types."
+msgstr "Muestra un gráfico de los tipos de contenido más vistos."
+
+#: post-views-counter.php:318
+msgid "I already did"
+msgstr "Ya lo he hecho"
+
+#: post-views-counter.php:318
+msgid "Nope, maybe later"
+msgstr "No, quizá más tarde"
+
+#: post-views-counter.php:318
+msgid "Ok, you deserve it"
+msgstr "Vale, te lo mereces"
+
+#: post-views-counter.php:318
+msgid "founder of"
+msgstr "fundador de"
+
+#: includes/class-settings.php:1277
+msgid "Export, download and share your website views data."
+msgstr "Exporta, descarga y comparte los datos de vistas de tu web."
+
+#: includes/class-settings.php:1276
+msgid "Generate views reports in any date range you need."
+msgstr "Genera informes de vistas en cualquier intervalo de fechas que necesites."
+
+#: includes/class-settings.php:1275
+msgid "View detailed stats about the popularity of your content."
+msgstr "Consulta estadísticas detalladas sobre la popularidad de tu contenido."
+
+#: includes/class-settings.php:1274
+msgid "Display Reports and Export Views to CSV/XML"
+msgstr "Visualizar informes y exportar vistas a CSV/XML"
+
+#: includes/class-settings.php:523
+msgid "Choose where to display the plugin's menu."
+msgstr "Elige dónde mostrar el menú del plugin."
+
+#: includes/class-settings.php:521
+msgid "Settings submenu"
+msgstr "Submenú de ajustes"
+
+#: includes/class-settings.php:520
+msgid "Top menu"
+msgstr "Menú superior"
+
+#: includes/class-settings.php:516
+msgid "Menu Position"
+msgstr "Posición del menú"
+
+#: includes/class-settings.php:1168
+msgid "Override existing views data during import."
+msgstr "Anula los datos de las vistas existentes durante la importación."
+
+#: includes/class-settings.php:1019
+msgid "unavailable"
+msgstr "no disponible"
+
+#: includes/class-settings.php:1019
+msgid "available"
+msgstr "disponible"
+
+#: includes/class-settings.php:1019
+msgid "Persistent Object Cache"
+msgstr "Caché de objetos persistente"
+
+#: includes/class-settings.php:922
+msgid "Enter the time between single user visit count. Enter %s if you want to count every page view."
+msgstr "Introduce el tiempo entre el recuento de visitas de un solo usuario. Introduce %s si quieres contar cada vista de página."
+
+#: includes/class-settings.php:808
+msgid "Select taxonomies for which the views count will be displayed."
+msgstr "Selecciona las taxonomías para las que se mostrará el recuento de vistas."
+
+#: includes/class-settings.php:588 includes/class-settings.php:642
+#: includes/class-settings.php:643
+msgid "Other"
+msgstr "Otros"
+
+#: includes/class-settings.php:584 includes/class-settings.php:632
+#: includes/class-settings.php:633
+msgid "Reports"
+msgstr "Informes"
+
+#: includes/class-settings.php:548
+msgid "If you deactivate the plugin with this option enabled all plugin data will be deleted along with the number of post views."
+msgstr "Si desactivas el plugin con esta opción activada, se borrarán todos los datos del plugin junto con el número de visualizaciones de las entradas."
+
+#: includes/class-settings.php:504
+msgid "License"
+msgstr "Licencia"
+
+#: includes/class-settings.php:453
+msgid "Display number of views on authors archive pages."
+msgstr "Mostrar el número de visitas en las páginas de archivo de los autores."
+
+#: includes/class-settings.php:446
+msgid "Authors"
+msgstr "Autores"
+
+#: includes/class-settings.php:436
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: includes/class-settings.php:326
+msgid "This feature requires a persistent object cache like %s or %s to be installed and activated."
+msgstr "Esta función requiere que se instale y active una caché de objetos persistente como %s o %s."
+
+#: includes/class-settings.php:325
+msgid "Enable to use object cache optimization."
+msgstr "Actívalo para utilizar la optimización de la caché de objetos."
+
+#: includes/class-settings.php:318
+msgid "Object Cache Support"
+msgstr "Compatibilidad con caché de objetos"
+
+#: includes/class-settings.php:282
+msgid "This feature requires official WordPress Google AMP plugin to be installed and activated."
+msgstr "Esta función requiere la instalación y activación del plugin oficial WordPress Google AMP."
+
+#: includes/class-settings.php:281
+msgid "Enable to support Google AMP."
+msgstr "Avtívalo para compatibilidad con Google AMP."
+
+#: includes/class-settings.php:274
+msgid "AMP Support"
+msgstr "Compatibilidad con AMP"
+
+#: includes/class-settings.php:267
+msgid "Cookieless"
+msgstr "Sin cookies"
+
+#: includes/class-settings.php:266
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/class-settings.php:264
+msgid "Choose how to store the content views data in the user's browser - with or without cookies."
+msgstr "Elige cómo almacenar los datos de las vistas de contenido en el navegador del usuario: con o sin cookies."
+
+#: includes/class-settings.php:259
+msgid "Data Storage"
+msgstr "Almacenamiento de datos"
+
+#: includes/class-settings.php:233
+msgid "Enable to count visits of front page, post type and date archives, 404 and search pages."
+msgstr "Activa el recuento de visitas de la página principal, archivos de tipo de entrada y fecha, 404 y páginas de búsqueda."
+
+#: includes/class-settings.php:230
+msgid "Other Count"
+msgstr "Otro recuento"
+
+#: includes/class-settings.php:223
+msgid "Enable to count authors archive visits."
+msgstr "Actívalo para contar las visitas al archivo de autores."
+
+#: includes/class-settings.php:220
+msgid "Authors Count"
+msgstr "Recuento de autores"
+
+#: includes/class-settings.php:213
+msgid "Enable to count taxonomy terms visits."
+msgstr "Activa el recuento de visitas de términos de taxonomía."
+
+#: includes/class-settings.php:210
+msgid "Taxonomies Count"
+msgstr "Recuento de taxonomías"
+
+#: includes/class-settings.php:85 includes/class-settings.php:1278
+msgid "Upgrade to Pro"
+msgstr "Mejora a Pro"
+
+#: includes/class-settings.php:82
+msgid "Take your insights to the next level with dedicated, <b>customizable reporting</b>."
+msgstr "Lleva tus conocimientos al siguiente nivel con <b>informes específicos y personalizables</b>."
+
+#: includes/class-settings.php:81
+msgid "Unlock <b>optimization features</b> and speed up view count tracking."
+msgstr "Desbloquea las funciones de <b>optimización</b> y acelera el seguimiento del recuento de visitas."
+
+#: includes/class-settings.php:80
+msgid "Get <b>more accurate information</b> about the number of views of your site, regardless of what the user is visiting."
+msgstr "Obtén <b>información más precisa</b> sobre el número de visitas de tu sitio, independientemente de lo que esté visitando el usuario."
+
+#: includes/class-settings.php:75
+msgid "You're using"
+msgstr "Estás utilizando"
+
+#: includes/class-dashboard.php:570
+msgid "No most viewed posts found."
+msgstr "No se han encontrado entradas más vistas."
+
+#: includes/class-dashboard.php:552
+msgid "(no title)"
+msgstr "(Sin título)"
+
+#: includes/class-dashboard.php:527
+msgid "Views"
+msgstr "Vistas"
+
+#: includes/class-counter.php:574
+msgid "Invalid storage type."
+msgstr "Tipo de almacenamiento no válido."
+
+#. Author URI of the plugin
+#: post-views-counter.php
+msgid "https://dfactory.co/"
+msgstr "https://dfactory.co/"
+
+#. Plugin URI of the plugin
+#: post-views-counter.php
+msgid "https://postviewscounter.com/"
+msgstr "https://postviewscounter.com/"
+
+#: includes/class-settings.php:309
+msgid "Delete single day post views data older than specified above. Enter %s if you want to preserve your daily views data regardless of its age."
+msgstr "Borra los datos de las visualizaciones anteriores al número de días especificado arriba. Introduce %s si quieres mantener tus datos independientemente de su antigüedad."
+
+#: includes/class-settings.php:412
+msgid "Select where would you like to display the post views counter. Use %s shortcode for manual display."
+msgstr "Selecciona dónde te gustaría mostrar el contador de visualizaciones. Usa el shortcode %s para mostrarlo manualmente."
+
+#: includes/class-settings.php:1052
+msgid "Use it to exclude specific user roles from post views count."
+msgstr "Úsalo para excluir perfiles específicos de usuarios del recuento de las visualizaciones de la entrada."
+
+#: includes/class-settings.php:1043
+msgid "Use it exclude specific user groups from post views count."
+msgstr "Úsalo para excluir grupos específicos de usuarios del recuento de las visualizaciones de la entrada."
+
+#: includes/class-settings.php:170 includes/class-settings.php:570
+msgid "Post Views Counter Settings"
+msgstr "Ajustes de Post Views Counter"
+
+#: includes/class-settings-api.php:723
+msgid "Settings restored to defaults."
+msgstr "Ajustes restaurados a los valores por defecto."
+
+#: includes/class-settings-api.php:697
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: includes/class-settings.php:499
+msgid "The post views chart will be displayed for the post types that are being counted."
+msgstr "Se mostrará el gráfico de visualizaciones de la entrada para los tipos de contenido que se están contando."
+
+#: includes/class-settings.php:500
+msgid "Enable to display the post views chart at the toolbar."
+msgstr "Actívalo para mostrar el gráfico de visualizaciones de la entrada en la barra de herramientas."
+
+#: includes/class-settings.php:496
+msgid "Toolbar Chart"
+msgstr "Gráfico de la barra de herramientas"
+
+#: includes/class-dashboard.php:526
+msgid "Post"
+msgstr "Entrada"
+
+#: includes/class-dashboard.php:107
+msgid "Top Posts"
+msgstr "Entradas más vistas"
+
+#: includes/class-widgets.php:72
+msgid "No most viewed posts found"
+msgstr "No se han encontrado entradas más vistas"
+
+#: includes/class-columns.php:461
+msgid "%s post view"
+msgid_plural "%s post views"
+msgstr[0] "%s visita a la entrada"
+msgstr[1] "%s visitas a la entrada"
+
+#: post-views-counter.php:318
+msgid "Your help is much appreciated. Thank you very much"
+msgstr "Agradecemos tu ayuda. Muchísimas gracias,"
+
+#: post-views-counter.php:318
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation."
+msgstr "Por favor, ¿podrías hacerme un GRAN favor y darle una valoración de 5 estrellas en WordPress para ayudarnos a hacer correr la voz e impulsar nuestra motivación?"
+
+#: post-views-counter.php:318
+msgid "Hey, you've been using <strong>Post Views Counter</strong> for more than %s."
+msgstr "Hola, has estado usando <strong>Post Views Counter</strong> durante más de %s."
+
+#: includes/class-admin.php:75 includes/class-admin.php:79
+#: includes/class-admin.php:112 includes/class-admin.php:116
+msgid "You are not allowed to edit this item."
+msgstr "No tienes permiso para editar este elemento."
+
+#: includes/class-widgets.php:179
+msgid "Display post author?"
+msgstr "¿Mostrar el autor de las entradas?"
+
+#: includes/class-widgets.php:84
+msgid "Ordered list"
+msgstr "Lista ordenada"
+
+#: includes/class-widgets.php:83
+msgid "Unordered list"
+msgstr "Lista desordenada"
+
+#: includes/class-settings.php:128
+msgid "Fast AJAX"
+msgstr "Fast AJAX"
+
+#: includes/class-settings.php:360
+msgid "Enable to prevent bypassing the counts interval (for e.g. using incognito browser window or by clearing cookies)."
+msgstr "Actívalo para impedir que se evite el intervalo de recuento (por ejemplo, usando una ventana de incógnito en el navegador o vaciando las cookies)."
+
+#: includes/class-settings.php:352
+msgid "Strict counts"
+msgstr "Recuento estricto"
+
+#: post-views-counter.php:660
+msgid "Are you sure you want to delete all existing data?"
+msgstr "¿Seguro que quieres borrar todos los datos existentes?"
+
+#: includes/class-update.php:179
+msgid "Thank you! Datebase was successfully updated."
+msgstr "¡Gracias! La base de datos se ha actualizado correctamente."
+
+#: includes/class-update.php:141
+msgid "Run the Update"
+msgstr "Ejecutar la actualización"
+
+#: includes/class-update.php:140
+msgid "<strong>Post Views Counter</strong> - this version requires a database update. Make sure to back up your database first."
+msgstr "<strong>Post Views Counter</strong>: esta versión necesita una actualización de la base de datos. Primero, asegúrate de hacer una copia de seguridad de tu base de datos."
+
+#: includes/class-settings.php:745
+msgid "Error occurred. All existing data were not deleted."
+msgstr "Ha ocurrido un error. No se han podido borrar todos los datos existentes."
+
+#: includes/class-settings.php:536 includes/class-settings.php:1182
+msgid "Delete Views"
+msgstr "Borrar visualizaciones"
+
+#: includes/class-settings.php:527 includes/class-settings.php:1168
+msgid "Import Views"
+msgstr "Importar visualizaciones"
+
+#: includes/class-settings.php:127
+msgid "REST API"
+msgstr "API REST"
+
+#: includes/class-counter.php:567
+msgid "Post type excluded."
+msgstr "Tipo de contenido excluido."
+
+#: includes/class-admin.php:108 includes/class-counter.php:560
+msgid "Invalid post ID."
+msgstr "ID de publicación no válido."
+
+#: includes/class-counter.php:553
+msgid "REST API method is disabled."
+msgstr "El método de la API REST está desactivado."
+
+#: includes/class-settings.php:294
+msgid "Count Interval"
+msgstr "Intervalo del recuento"
+
+#: includes/class-settings.php:470
+msgid "Select page types where the views count will be displayed."
+msgstr "Selecciona los tipos de página donde se mostrará el recuento de visualizaciones."
+
+#: includes/class-settings.php:483
+msgid "User Type"
+msgstr "Tipo de usuario"
+
+#: includes/class-settings.php:466
+msgid "Page Type"
+msgstr "Tipo de página"
+
+#: includes/class-settings.php:457
+msgid "Post Type"
+msgstr "Tipo de contenido"
+
+#: includes/class-settings.php:477
+msgid "Search results"
+msgstr "Resultados de la búsqueda"
+
+#: includes/class-settings.php:476
+msgid "Single pages"
+msgstr "Páginas individuales"
+
+#: includes/class-settings.php:475
+msgid "Archives"
+msgstr "Archivos"
+
+#: includes/class-settings.php:474
+msgid "Home"
+msgstr "Inicio"
+
+#: includes/class-dashboard.php:313 includes/class-dashboard.php:402
+#: includes/class-settings.php:382
+msgid "Total Views"
+msgstr "Visualizaciones totales"
+
+#: includes/class-dashboard.php:233 includes/class-dashboard.php:483
+#: includes/class-dashboard.php:621
+msgid "You do not have permission to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+#: includes/class-settings.php:736
+msgid "There was no post views data to import."
+msgstr "No hay datos de visualizaciones para importar."
+
+#: includes/class-settings.php:1218
+msgid "Use it to hide the post views counter from selected user roles."
+msgstr "Úsalo para ocultar el recuento de visualizaciones a los perfiles de usuario seleccionados."
+
+#. Author of the plugin
+#: post-views-counter.php
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Description of the plugin
+#: post-views-counter.php
+msgid "Post Views Counter allows you to display how many times a post, page or custom post type had been viewed in a simple, fast and reliable way."
+msgstr "Post Views Counter te permite mostrar cuántas veces ha sido visualizada una entrada, página o tipo de contenido personalizado de una manera sencilla, rápida y confiable."
+
+#: post-views-counter.php:740
+msgid "Settings"
+msgstr "Ajustes"
+
+#: post-views-counter.php:659
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "¿Seguro que quieres restablecer estos ajustes a los valores por defecto?"
+
+#: includes/class-widgets.php:184
+msgid "Thumbnail size"
+msgstr "Tamaño de la miniatura"
+
+#: includes/class-widgets.php:181
+msgid "Display post thumbnail?"
+msgstr "¿Mostrar la miniatura de la publicación?"
+
+#: includes/class-widgets.php:177
+msgid "Display post excerpt?"
+msgstr "¿Mostrar el extracto de la publicación?"
+
+#: includes/class-widgets.php:175
+msgid "Display post views?"
+msgstr "¿Mostrar las visualizaciones de la publicación?"
+
+#: includes/class-widgets.php:149
+msgid "Order"
+msgstr "Orden"
+
+#: includes/class-widgets.php:145
+msgid "No posts message"
+msgstr "Mensaje «Sin publicaciones»"
+
+#: includes/class-widgets.php:141
+msgid "Number of posts to show"
+msgstr "Número de publicaciones a mostrar"
+
+#: includes/class-widgets.php:128
+msgid "Post Types"
+msgstr "Tipos de contenido"
+
+#: includes/class-widgets.php:124
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-widgets.php:78
+msgid "Descending"
+msgstr "Descendente"
+
+#: includes/class-widgets.php:77
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: includes/class-widgets.php:56
+msgid "Displays a list of the most viewed posts"
+msgstr "Muestra una lista de las publicaciones más vistas"
+
+#: includes/class-widgets.php:54 includes/class-widgets.php:62
+msgid "Most Viewed Posts"
+msgstr "Publicaciones más vistas"
+
+#: includes/class-settings.php:1209
+msgid "Use it to hide the post views counter from selected type of visitors."
+msgstr "Úsalo para ocultar el recuento de las visualizaciones a los tipos de visitantes seleccionados."
+
+#: includes/class-settings.php:404
+msgid "Enter the post views icon class. Any of the <a href=\"%s\" target=\"_blank\">Dashicons</a> classes are available."
+msgstr "Introduce la clase del icono para las visualizaciones. Están disponibles cualquiera de las clases de <a href=\"%s\" target=\"_blank\">Dashicons</a>."
+
+#: includes/class-settings.php:390
+msgid "Choose how to display the post views counter."
+msgstr "Elige cómo mostrar el contador de visualizaciones."
+
+#: includes/class-settings.php:549
+msgid "Enable to delete all plugin data on deactivation."
+msgstr "Actívalo para borrar todos los datos del plugin al desactivarlo."
+
+#: includes/class-settings.php:290
+msgid "Enable to restrict post views editing to admins only."
+msgstr "Actívalo para restringir la edición de las visualizaciones solo para los administradores."
+
+#: includes/class-settings.php:1123
+msgid "Enter the IP addresses to be excluded from post views count."
+msgstr "Introduce las direcciones IP a excluir del recuento de visualizaciones."
+
+#: includes/class-settings.php:1122
+msgid "Add my current IP"
+msgstr "Añadir mi IP actual"
+
+#: includes/class-settings.php:1122
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: includes/class-settings.php:1111 includes/class-settings.php:1117
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/class-settings.php:461
+msgid "Select post types for which the views count will be displayed."
+msgstr "Selecciona los tipos contenido para los que se mostrará el recuento de visualizaciones."
+
+#: includes/class-settings.php:205
+msgid "Select post types for which post views will be counted."
+msgstr "Selecciona los tipos de contenido para los que se contarán las visualizaciones."
+
+#: includes/class-settings.php:367
+msgid "Enter the label for the post views counter field."
+msgstr "Introduzca la etiqueta para el campo contador vistas."
+
+#: includes/class-settings.php:400
+msgid "Icon Class"
+msgstr "Clase del icono"
+
+#: includes/class-settings.php:387 includes/class-widgets.php:162
+msgid "Display Style"
+msgstr "Estilo de visualización"
+
+#: includes/class-settings.php:409
+msgid "Position"
+msgstr "Posición"
+
+#: includes/class-settings.php:545
+msgid "Deactivation"
+msgstr "Desactivación"
+
+#: includes/class-settings.php:343
+msgid "Exclude IPs"
+msgstr "Excluir IPs"
+
+#: includes/class-settings.php:330
+msgid "Exclude Visitors"
+msgstr "Excluir visitantes"
+
+#: includes/class-settings.php:286
+msgid "Restrict Edit"
+msgstr "Restringir la edición"
+
+#: includes/class-settings.php:251
+msgid "Post Views Column"
+msgstr "Columna de visualizaciones"
+
+#: includes/class-settings.php:241
+msgid "Counter Mode"
+msgstr "Método de recuento"
+
+#: includes/class-settings.php:201
+msgid "Post Types Count"
+msgstr "Recuento de tipos de contenido"
+
+#: includes/class-settings-api.php:328
+msgid "Reset to defaults"
+msgstr "Restablecer a los valores por defecto"
+
+#. Plugin Name of the plugin
+#: post-views-counter.php includes/class-dashboard.php:61
+#: includes/class-settings.php:571
+msgid "Post Views Counter"
+msgstr "Post Views Counter"
+
+#: includes/class-settings.php:580 includes/class-settings.php:622
+#: includes/class-settings.php:623
+msgid "Display"
+msgstr "Mostar"
+
+#: includes/class-settings.php:576 includes/class-settings.php:612
+#: includes/class-settings.php:613
+msgid "General"
+msgstr "General"
+
+#: includes/class-settings.php:395
+msgid "label"
+msgstr "Etiqueta"
+
+#: includes/class-settings.php:394
+msgid "icon"
+msgstr "Icono"
+
+#: includes/class-settings.php:416
+msgid "manual"
+msgstr "Manual"
+
+#: includes/class-settings.php:415
+msgid "after the content"
+msgstr "Después del contenido"
+
+#: includes/class-settings.php:414
+msgid "before the content"
+msgstr "Antes del contenido"
+
+#: includes/class-settings.php:159
+msgid "selected user roles"
+msgstr "Perfiles de usuario seleccionados"
+
+#: includes/class-settings.php:158
+msgid "guests"
+msgstr "invitados"
+
+#: includes/class-settings.php:157
+msgid "logged in users"
+msgstr "Usuarios conectados"
+
+#: includes/class-settings.php:156
+msgid "robots"
+msgstr "Robots"
+
+#: includes/class-settings.php:151
+msgid "years"
+msgstr "años"
+
+#: includes/class-settings.php:150
+msgid "months"
+msgstr "meses"
+
+#: includes/class-settings.php:149
+msgid "weeks"
+msgstr "semanas"
+
+#: includes/class-settings.php:148
+msgid "days"
+msgstr "días"
+
+#: includes/class-settings.php:147
+msgid "hours"
+msgstr "horas"
+
+#: includes/class-settings.php:146 includes/class-settings.php:1018
+msgid "minutes"
+msgstr "minutos"
+
+#: includes/class-settings.php:126
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/class-settings.php:125
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/functions.php:572
+msgid "No Posts"
+msgstr "No hay publicaciones"
+
+#: includes/class-cron.php:69
+msgid "Post Views Counter reset daily counts interval"
+msgstr "Intervalo del restablecimiento diario del recuento de visualizaciones"
+
+#: includes/class-admin.php:159 includes/class-columns.php:78
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/class-columns.php:77
+msgid "OK"
+msgstr "Aceptar"
+
+#: includes/class-admin.php:158 includes/class-columns.php:73
+msgid "Adjust the views count for this post."
+msgstr "Ajusta el recuento de visualizaciones para esta publicación."
+
+#: includes/class-columns.php:69
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-admin.php:157 includes/class-columns.php:60
+#: includes/class-columns.php:232 includes/class-columns.php:295
+#: includes/class-dashboard.php:100 includes/class-dashboard.php:267
+#: includes/class-settings.php:571
+msgid "Post Views"
+msgstr "Visitas"

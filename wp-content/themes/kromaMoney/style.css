@@ -1,0 +1,127 @@
+/* 
+ Theme Name:   Kromasol
+ Theme URI:    
+ Description:  Tema para KromaMoney
+ Author:       EZRA
+ Author URI:   https://ezra.mx
+ Template:     generatepress
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+body {
+  background-color: #1c1c1c;
+}
+
+/* Eliminamos el padding de las filas con fondo de imagen o color */
+
+.et_pb_section {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+ .et_pb_with_background .et_pb_row{
+	width: 100% !important;
+}
+/*
+.site-logo.mobile-header-logo  {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+#mobile-header .menu-toggle {
+    order: -1;
+    margin-right: auto;
+}
+
+#mobile-header {
+  background-color: #FE2E6F;
+}
+*/
+.menuFlagSize{
+	width: 90px;
+	height: 30px;	
+}
+
+
+
+/******** Modificaciones especiales para moviles ********/
+
+
+/* Para mantener dos columnas en el homepage */
+@media (max-width: 980px) {
+  .twoX2 .et_pb_column{
+  max-width: 50% !important;
+  }
+
+  .twoX2 .et_pb_column.et_pb_column_1_3:nth-of-type(3){
+  margin: 0 25%;
+  }
+}
+  @media (max-width: 479px){
+  .et_pb_section .et_pb_row.twoX2 div.et_pb_column.et_pb_column_1_4 {
+      width: 47.25% !important;
+  }
+}
+
+/* Para mantener tres columnas en el homepage */
+@media (max-width: 980px) {
+  .threeX3 .et_pb_column{
+    max-width: 33.33% !important;
+  }
+
+  .threeX3 .et_pb_column.et_pb_column_1_3:nth-of-type(3n+1){
+    margin: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .et_pb_section .et_pb_row.threeX3 div.et_pb_column.et_pb_column_1_4 {
+    width: 31.5% !important;
+  }
+}
+
+/* Para mantener cuatro columnas en el homepage */
+@media (max-width: 980px) {
+  .fourX4 .et_pb_column{
+    max-width: 25% !important;
+    padding: 30px !important; /* Ajustar padding según sea necesario */
+    margin: 0 !important;  /* Ajustar margin según sea necesario */
+    box-sizing: border-box;
+  }
+
+  .fourX4 .et_pb_column.et_pb_column_1_4:nth-of-type(4n+1){
+    margin: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .et_pb_section .et_pb_row.fourX4 div.et_pb_column.et_pb_column_1_4 {
+    width: 23.5% !important;
+  }
+}
+
+/* Para mantener cinco columnas en el homepage */
+@media (max-width: 980px) {
+  .fiveX5 .et_pb_column {
+    max-width: 20% !important;
+    padding: 0 !important; /* Ajustar padding según sea necesario */
+    margin: 0 !important;  /* Ajustar margin según sea necesario */
+    box-sizing: border-box;
+  }
+
+  .fiveX5 .et_pb_row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .et_pb_section .et_pb_row.fiveX5 div.et_pb_column.et_pb_column_1_5 {
+    width: 18.5% !important;
+  }
+}

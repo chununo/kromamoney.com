@@ -1,0 +1,15 @@
+{
+  "name": "WP Mobile Bottom Menu Pro",
+  "slug": "wp-mobile-bottom-menu-pro",
+  "author": "<a href='https://boomdevs.com'>WP Mobile Bottom Menu Pro</a>",
+  "author_profile": "https://boomdevs.com",
+  "version": "1.0.5",
+  "requires": "5.6",
+  "tested": "6.5.3",
+  "requires_php": "7.4",
+  "sections": {
+    "description": "The premium add-on for WP Mobile Bottom Menu.",
+    "changelog": "<h4>1.0.5 -  Today's Date</h4><ul><li>Fix: fix some minor issues</li></ul>",
+    "frequently asked questions": "<h4>How do I use this plugin?<h4><p>After installation, go to the plugin settings to manage your license.</p>"
+  }
+}

@@ -1,0 +1,366 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-13 10:00+0200\n"
+"PO-Revision-Date: 2021-01-08 12:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sticky-header-on-scroll.php:22
+msgid "Sticky Header on Scroll Plugin"
+msgstr ""
+
+#: sticky-header-on-scroll.php:27
+msgid "Header Bar"
+msgstr ""
+
+#: sticky-header-on-scroll.php:34
+msgid "Header height (in pixels)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:35
+msgid ""
+"Example: 75. If empty, defaults to 66. Recommended only if you want to make "
+"header larger. Alternatively, use the slim design option below."
+msgstr ""
+
+#: sticky-header-on-scroll.php:42
+msgid "Slim design"
+msgstr ""
+
+#: sticky-header-on-scroll.php:42
+msgid "If enabled, the custom height setting above will be ignored."
+msgstr ""
+
+#: sticky-header-on-scroll.php:48
+msgid "Header background image"
+msgstr ""
+
+#: sticky-header-on-scroll.php:57
+msgid "Full background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:57
+msgid ""
+"By default, the background image will be shown as a pattern. If this option "
+"is selected, it will be displayed as a full background instead."
+msgstr ""
+
+#: sticky-header-on-scroll.php:64
+msgid "Header background image opacity"
+msgstr ""
+
+#: sticky-header-on-scroll.php:65
+msgid "Example: 0.5 or 0.75. If empty, defaults to 0.1"
+msgstr ""
+
+#: sticky-header-on-scroll.php:72
+msgid "Header background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:80
+msgid "Header opacity"
+msgstr ""
+
+#: sticky-header-on-scroll.php:81
+msgid "From 0-1 (example: 0.95) If empty, defaults to 1"
+msgstr ""
+
+#: sticky-header-on-scroll.php:88 sticky-header-on-scroll.php:118
+msgid "Logo"
+msgstr ""
+
+#: sticky-header-on-scroll.php:93
+msgid "Hide logo"
+msgstr ""
+
+#: sticky-header-on-scroll.php:93
+msgid "If ticked, logo will not be displayed."
+msgstr ""
+
+#: sticky-header-on-scroll.php:99
+msgid "Upload logo image"
+msgstr ""
+
+#: sticky-header-on-scroll.php:110
+msgid "Logo height (in pixels)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:111
+msgid ""
+"Example: 30. If empty, defaults to 45. Logo width will remain proportional "
+"to height."
+msgstr ""
+
+#: sticky-header-on-scroll.php:124
+msgid "Logo hover"
+msgstr ""
+
+#: sticky-header-on-scroll.php:130
+msgid "Menu Button"
+msgstr ""
+
+#: sticky-header-on-scroll.php:135
+msgid "Menu button"
+msgstr ""
+
+#: sticky-header-on-scroll.php:141
+msgid "Menu button (hover, active)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:147
+msgid "Menu button background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:153
+msgid "Menu button background (hover, active)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:161 sticky-header-on-scroll.php:169
+msgid "Menu button label"
+msgstr ""
+
+#: sticky-header-on-scroll.php:162
+msgid ""
+"An optional text label to be shown below menu button (for example: MENU)."
+msgstr ""
+
+#: sticky-header-on-scroll.php:175
+msgid "Menu button label (hover, active)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:181
+msgid "Dropdown Menu"
+msgstr ""
+
+#: sticky-header-on-scroll.php:188
+msgid "Dropdown menu max width (in pixels)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:189
+msgid "Set maximum width for dropdown menu. If left empty, defaults to 300."
+msgstr ""
+
+#: sticky-header-on-scroll.php:198
+msgid "Dropdown menu max height (in pixels)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:199
+msgid ""
+"Set maximum height for dropdown menu. If left empty, defaults to full size."
+msgstr ""
+
+#: sticky-header-on-scroll.php:206
+msgid "Menu item"
+msgstr ""
+
+#: sticky-header-on-scroll.php:212
+msgid "Menu item (hover)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:218
+msgid "Expand icon separator"
+msgstr ""
+
+#: sticky-header-on-scroll.php:224
+msgid "Expand icon"
+msgstr ""
+
+#: sticky-header-on-scroll.php:230
+msgid "Expand icon (hover)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:236
+msgid "Menu item dividers"
+msgstr ""
+
+#: sticky-header-on-scroll.php:242
+msgid "Submenu item"
+msgstr ""
+
+#: sticky-header-on-scroll.php:248
+msgid "Submenu item (hover)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:254
+msgid "Expand icon separator (sub-menu)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:260
+msgid "Expand icon (sub-menu)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:266
+msgid "Expand icon (hover, sub-menu)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:272
+msgid "Submenu item dividers"
+msgstr ""
+
+#: sticky-header-on-scroll.php:278
+msgid "Menu background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:284
+msgid "Submenu background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:290
+msgid "Post Title"
+msgstr ""
+
+#: sticky-header-on-scroll.php:295
+msgid "Hide post title"
+msgstr ""
+
+#: sticky-header-on-scroll.php:295
+msgid ""
+"By default, when viewing a post, the post title is displayed in the header. "
+"If you wish it to be hidden, enable this option."
+msgstr ""
+
+#: sticky-header-on-scroll.php:302 sticky-header-on-scroll.php:310
+msgid "Post title prefix"
+msgstr ""
+
+#: sticky-header-on-scroll.php:303
+msgid "If left empty, no prefix is shown."
+msgstr ""
+
+#: sticky-header-on-scroll.php:316
+msgid "Post title"
+msgstr ""
+
+#: sticky-header-on-scroll.php:322
+msgid "Share Buttons"
+msgstr ""
+
+#: sticky-header-on-scroll.php:327
+msgid "Hide share buttons"
+msgstr ""
+
+#: sticky-header-on-scroll.php:327
+msgid ""
+"By default, when viewing a post, the share buttons are displayed in the "
+"header. If you wish them to be hidden, enable this option."
+msgstr ""
+
+#: sticky-header-on-scroll.php:332
+msgid "’More buttons’ button color"
+msgstr ""
+
+#: sticky-header-on-scroll.php:338
+msgid "Styled Scrollbar"
+msgstr ""
+
+#: sticky-header-on-scroll.php:343
+msgid "Enable styled scrollbar"
+msgstr ""
+
+#: sticky-header-on-scroll.php:343
+msgid "If unticked, the default scrollbar of a browser is used."
+msgstr ""
+
+#: sticky-header-on-scroll.php:348
+msgid "Scrollbar"
+msgstr ""
+
+#: sticky-header-on-scroll.php:354
+msgid "Scrollbar background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:360
+msgid "Misc"
+msgstr ""
+
+#: sticky-header-on-scroll.php:365
+msgid "Dividers"
+msgstr ""
+
+#: sticky-header-on-scroll.php:371
+msgid "Hide menu button and logo dividers"
+msgstr ""
+
+#: sticky-header-on-scroll.php:376
+msgid "\"Next\" button"
+msgstr ""
+
+#: sticky-header-on-scroll.php:382
+msgid "\"Next\" button background"
+msgstr ""
+
+#: sticky-header-on-scroll.php:388
+msgid "Hide \"Next\" button"
+msgstr ""
+
+#: sticky-header-on-scroll.php:388
+msgid ""
+"By default, when viewing a post, the \"Next\" button is displayed in the "
+"header. If you wish it to be hidden, enable this option."
+msgstr ""
+
+#: sticky-header-on-scroll.php:395
+msgid "Display after scrolling X amount (in pixels)"
+msgstr ""
+
+#: sticky-header-on-scroll.php:396
+msgid ""
+"The amount of distance the user has to scroll before the sticky header "
+"appears. Example: 50 or 250. By default, header will appear after scrolling "
+"100 pixels."
+msgstr ""
+
+#: sticky-header-on-scroll.php:405
+msgid "Hide at certain width/resolution"
+msgstr ""
+
+#: sticky-header-on-scroll.php:406
+msgid ""
+"<strong>Example #1:</strong> If you want to show Sticky Header on Scroll on "
+"desktop only, enter the values as 0 and 500. <br><br> <strong>Example #2:</"
+"strong> If you want to show Sticky Header on Scroll on mobile only, enter "
+"the values as 500 and 5000. <br><br> Feel free to experiment with your own "
+"values to get the result that is right for you. If fields are empty, Sticky "
+"Header on Scroll will be visible at all browser widths and resolutions. "
+"<br><br> Hide Sticky Header on Scroll if browser width or screen resolution "
+"(in pixels) is between..."
+msgstr ""
+
+#: sticky-header-on-scroll.php:415
+msgid "..and:"
+msgstr ""
+
+#: sticky-header-on-scroll.php:424
+msgid "Advanced: Hide theme header"
+msgstr ""
+
+#: sticky-header-on-scroll.php:425
+msgid ""
+"If you know the class/ID of your theme header and would like to hide it (or "
+"any other element for that matter), enter the class/ID into this field "
+"(example: \"#my-theme-header\"). Multiple classes/IDs can be entered "
+"(separate with comma as you would in a stylesheet)."
+msgstr ""
+
+#: sticky-header-on-scroll.php:510
+msgid "SHARE"
+msgstr ""
+
+#: sticky-header-on-scroll.php:516
+msgid "TWEET"
+msgstr ""
+
+#: sticky-header-on-scroll.php:614
+msgid "Sticky Header on Scroll"
+msgstr ""

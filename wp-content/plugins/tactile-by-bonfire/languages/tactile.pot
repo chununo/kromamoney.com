@@ -1,0 +1,201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-13 10:00+0200\n"
+"PO-Revision-Date: 2021-01-08 12:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tactile.php:23
+msgid "Tactile Plugin"
+msgstr ""
+
+#: tactile.php:28
+msgid "Header"
+msgstr ""
+
+#: tactile.php:33
+msgid "Absolute position"
+msgstr ""
+
+#: tactile.php:46
+msgid "Background color opacity"
+msgstr ""
+
+#: tactile.php:47 tactile.php:73
+msgid "Example: 0.5. If left empty, defaults to 1."
+msgstr ""
+
+#: tactile.php:55
+msgid "Header background image"
+msgstr ""
+
+#: tactile.php:56
+msgid ""
+"Background image appears below the background color; please change "
+"background color opacity above to make image visible."
+msgstr ""
+
+#: tactile.php:65
+msgid "Background as pattern"
+msgstr ""
+
+#: tactile.php:72
+msgid "Background image opacity"
+msgstr ""
+
+#: tactile.php:80
+msgid "Logo"
+msgstr ""
+
+#: tactile.php:86
+msgid "Logo image"
+msgstr ""
+
+#: tactile.php:97
+msgid "Logo text size (in pixels)"
+msgstr ""
+
+#: tactile.php:98
+msgid "Example: 20. If left empty, defaults to 16."
+msgstr ""
+
+#: tactile.php:117
+msgid "Menu Button"
+msgstr ""
+
+#: tactile.php:122
+msgid "Hide menu button"
+msgstr ""
+
+#: tactile.php:130
+msgid "Menu button animation"
+msgstr ""
+
+#: tactile.php:133
+msgid "No animation"
+msgstr ""
+
+#: tactile.php:134
+msgid "Minus sign"
+msgstr ""
+
+#: tactile.php:135
+msgid "X sign"
+msgstr ""
+
+#: tactile.php:154
+msgid "Drop-Down Menu"
+msgstr ""
+
+#: tactile.php:161
+msgid "Dropdown menu width (in pixels)"
+msgstr ""
+
+#: tactile.php:162
+msgid "Example: 500. If left empty, defaults to 300."
+msgstr ""
+
+#: tactile.php:171
+msgid "Dropdown menu item size (in pixels)"
+msgstr ""
+
+#: tactile.php:172 tactile.php:182
+msgid "Example: 12. If left empty, defaults to 16."
+msgstr ""
+
+#: tactile.php:181
+msgid "Dropdown submenu item size (in pixels)"
+msgstr ""
+
+#: tactile.php:273
+msgid "Search"
+msgstr ""
+
+#: tactile.php:278
+msgid "Hide search"
+msgstr ""
+
+#: tactile.php:285
+msgid "Search field placeholder text"
+msgstr ""
+
+#: tactile.php:286
+msgid "If left empty, defaults to \"Find something...\"."
+msgstr ""
+
+#: tactile.php:343
+msgid "Background color opacity when search active"
+msgstr ""
+
+#: tactile.php:344
+msgid ""
+"Example: 0.5. If left empty, defaults to opacity setting in \"Header\" "
+"section."
+msgstr ""
+
+#: tactile.php:351
+msgid "Swipe Menu"
+msgstr ""
+
+#: tactile.php:356
+msgid "Hide swipe menu"
+msgstr ""
+
+#: tactile.php:363
+msgid "Swipe menu item size (in pixels)"
+msgstr ""
+
+#: tactile.php:364
+msgid "Example: 15. If left empty, defaults to 13."
+msgstr ""
+
+#: tactile.php:395
+msgid "Misc"
+msgstr ""
+
+#: tactile.php:400
+msgid "Do not push down site"
+msgstr ""
+
+#: tactile.php:407
+msgid "Hide at certain width/resolution"
+msgstr ""
+
+#: tactile.php:408
+msgid ""
+"<strong>Example #1:</strong> If you want to show Tactile on desktop only, "
+"enter the values as 0 and 500. <br><br> <strong>Example #2:</strong> If you "
+"want to show Tactile on mobile only, enter the values as 500 and 5000. "
+"<br><br> Feel free to experiment with your own values to get the result that "
+"is right for you. If fields are empty, Tactile will be visible at all "
+"browser widths and resolutions. <br><br> Hide Tactile menu if browser width "
+"or screen resolution (in pixels) is between..."
+msgstr ""
+
+#: tactile.php:417
+msgid "..and:"
+msgstr ""
+
+#: tactile.php:426
+msgid "Advanced: Hide theme menu"
+msgstr ""
+
+#: tactile.php:427
+msgid ""
+"If you have set Tactile to show only at a certain resolution, know the class/"
+"ID of your theme menu and would like to hide it when Tactile is visible, "
+"enter the class/ID into this field (example: \"#my-theme-menu\"). Multiple "
+"classes/IDs can be entered (separate with comma as you would in a "
+"stylesheet)."
+msgstr ""
