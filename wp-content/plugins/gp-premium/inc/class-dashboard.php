@@ -108,6 +108,12 @@ class GeneratePress_Pro_Dashboard {
 				'key' => 'generate_package_elements',
 				'isActive' => 'activated' === get_option( 'generate_package_elements', false ),
 			),
+			'Font Library' => array(
+				'title' => __( 'Font Library', 'gp-premium' ),
+				'description' => __( 'Download and localize fonts from the Google Fonts library.', 'gp-premium' ),
+				'key' => 'generate_package_font_library',
+				'isActive' => 'activated' === get_option( 'generate_package_font_library', false ),
+			),
 			'Hooks' => array(
 				'title' => __( 'Hooks', 'gp-premium' ),
 				'description' => __( 'This module has been deprecated. Please use Elements instead.', 'gp-premium' ),
@@ -298,10 +304,10 @@ class GeneratePress_Pro_Dashboard {
 
 		if ( $license_key && strlen( $license_key ) > 4 ) {
 			$hidden_length = strlen( $license_key ) - 4;
-			$safe_part = substr( $license_key, 0, 4 );
-			$hidden_part = implode('', array_fill( 0, $hidden_length, '*' ) );
+			$safe_part = substr( $license_key, -4 );
+			$hidden_part = implode( '', array_fill( 0, $hidden_length, '*' ) );
 
-			return $safe_part . $hidden_part;
+			return $hidden_part . $safe_part;
 		}
 
 		return $license_key;
@@ -318,7 +324,16 @@ class GeneratePress_Pro_Dashboard {
 		$dashboard_pages = GeneratePress_Dashboard::get_pages();
 		$current_screen = get_current_screen();
 
+
 		if ( in_array( $current_screen->id, $dashboard_pages ) ) {
+			$packages_info = generate_premium_get_enqueue_assets( 'packages' );
+			wp_enqueue_style(
+				'generatepress-pro-packages',
+				GP_PREMIUM_DIR_URL . 'dist/packages.css',
+				array(),
+				$packages_info['version']
+			);
+
 			wp_enqueue_style(
 				'generate-pro-dashboard',
 				GP_PREMIUM_DIR_URL . 'dist/style-dashboard.css',
@@ -343,6 +358,7 @@ class GeneratePress_Pro_Dashboard {
 					array(
 						'modules' => self::get_modules(),
 						'exportableModules' => self::get_exportable_modules(),
+						'fontLibraryUrl' => admin_url( 'themes.php?page=generatepress-font-library' ),
 						'siteLibraryUrl' => admin_url( 'themes.php?page=generatepress-library' ),
 						'elementsUrl' => admin_url( 'edit.php?post_type=gp_elements' ),
 						'hasWooCommerce' => class_exists( 'WooCommerce' ),

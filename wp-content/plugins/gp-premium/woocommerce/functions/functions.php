@@ -824,9 +824,10 @@ function generatepress_wc_css() {
 	}
 
 	// Primary button.
-	$css->set_selector( '.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button' );
+	$css->set_selector( '.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .wc-block-components-button' );
 	$css->add_property( 'color', esc_attr( $settings['form_button_text_color'] ) );
 	$css->add_property( 'background-color', esc_attr( $settings['form_button_background_color'] ) );
+	$css->add_property( 'text-decoration', 'none' );
 
 	if ( ! $using_dynamic_typography && isset( $settings['buttons_font_size'] ) ) {
 		$css->add_property( 'font-weight', esc_attr( $settings['buttons_font_weight'] ) );
@@ -842,10 +843,21 @@ function generatepress_wc_css() {
 
 		foreach ( (array) $typography as $key => $data ) {
 			if ( 'buttons' === $data['selector'] ) {
-				$unit = isset( $data['fontSizeUnit'] ) ? $data['fontSizeUnit'] : 'px';
+				$unit = isset( $data['fontSizeUnit'] ) ? $data['fontSizeUnit'] : '';
 
 				if ( ! empty( $data['fontSize'] ) ) {
-					$css->add_property( 'font-size', floatval( $data['fontSize'] ), false, $unit );
+
+					// Check for legacy font size values.
+					// @see https://github.com/tomusborne/generatepress/pull/548.
+					if ( is_numeric( $data['fontSize'] ) ) {
+						$data['fontSize'] = floatval( $data['fontSize'] );
+
+						if ( ! $unit ) {
+							$unit = 'px';
+						}
+					}
+
+					$css->add_property( 'font-size', esc_attr( $data['fontSize'] ), false, $unit );
 				}
 
 				if ( ! empty( $data['fontWeight'] ) ) {
@@ -858,13 +870,35 @@ function generatepress_wc_css() {
 
 				if ( ! empty( $data['fontSizeTablet'] ) ) {
 					$css->start_media_query( generate_premium_get_media_query( 'tablet' ) );
-					$css->add_property( 'font-size', floatval( $data['fontSizeTablet'] ), false, $unit );
+
+					// Check for legacy font size values.
+					// @see https://github.com/tomusborne/generatepress/pull/548.
+					if ( is_numeric( $data['fontSizeTablet'] ) ) {
+						$data['fontSizeTablet'] = floatval( $data['fontSizeTablet'] );
+
+						if ( ! $unit ) {
+							$unit = 'px';
+						}
+					}
+
+					$css->add_property( 'font-size', esc_attr( $data['fontSizeTablet'] ), false, $unit );
 					$css->stop_media_query();
 				}
 
 				if ( ! empty( $data['fontSizeMobile'] ) ) {
 					$css->start_media_query( generate_premium_get_media_query( 'mobile' ) );
-					$css->add_property( 'font-size', floatval( $data['fontSizeMobile'] ), false, $unit );
+
+					// Check for legacy font size values.
+					// @see https://github.com/tomusborne/generatepress/pull/548.
+					if ( is_numeric( $data['fontSizeMobile'] ) ) {
+						$data['fontSizeMobile'] = floatval( $data['fontSizeMobile'] );
+
+						if ( ! $unit ) {
+							$unit = 'px';
+						}
+					}
+
+					$css->add_property( 'font-size', esc_attr( $data['fontSizeMobile'] ), false, $unit );
 					$css->stop_media_query();
 				}
 			}
@@ -872,7 +906,7 @@ function generatepress_wc_css() {
 	}
 
 	// Primary button hover.
-	$css->set_selector( '.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover' );
+	$css->set_selector( '.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .wc-block-components-button:hover' );
 	$css->add_property( 'color', esc_attr( $settings['form_button_text_color_hover'] ) );
 	$css->add_property( 'background-color', esc_attr( $settings['form_button_background_color_hover'] ) );
 
@@ -885,6 +919,11 @@ function generatepress_wc_css() {
 	$css->set_selector( '.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover' );
 	$css->add_property( 'color', esc_attr( $settings['wc_alt_button_text_hover'] ) );
 	$css->add_property( 'background-color', esc_attr( $settings['wc_alt_button_background_hover'] ) );
+
+	// WooBlocks panel button font-size.
+	// We don't want to treat this like a normal button.
+	$css->set_selector( 'button.wc-block-components-panel__button' );
+	$css->add_property( 'font-size', 'inherit' );
 
 	// Star rating.
 	$css->set_selector( '.woocommerce .star-rating span:before, .woocommerce p.stars:hover a::before' );

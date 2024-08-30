@@ -28,3 +28,31 @@ add_action('wp_enqueue_scripts', 'your_theme_enqueue_styles');
 /*  Add your own functions below this line.
     ======================================== */ 
 
+
+
+add_action('wp_footer', 'replace_search_modal_content');
+function replace_search_modal_content() {
+    // Genera el contenido del shortcode de Ajax Search Pro
+    $ajax_search_pro_content = do_shortcode('[wd_asp id=1]'); // Reemplaza '1' con el ID correcto de tu barra de búsqueda
+
+    ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Selecciona el ícono de búsqueda
+        var searchIcon = document.querySelector('.search-item a');
+        
+        if (searchIcon) {
+            searchIcon.addEventListener('click', function() {
+                // Espera a que se abra el modal
+                setTimeout(function() {
+                    var modalContent = document.querySelector('.inside-navigation .search-field');
+                    if (modalContent) {
+                        modalContent.innerHTML = <?php echo json_encode($ajax_search_pro_content); ?>; // Inserta el contenido del shortcode de Ajax Search Pro
+                    }
+                }, 300); // Retraso para asegurarse de que el modal esté completamente cargado
+            });
+        }
+    });
+    </script>
+    <?php
+}

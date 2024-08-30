@@ -2,10 +2,10 @@
 Contributors: edge22
 Donate link: https://generatepress.com
 Tags: generatepress
-Requires at least: 5.2
-Tested up to: 6.4
+Requires at least: 6.1
+Tested up to: 6.6
 Requires PHP: 7.2
-Stable tag: 2.4.1
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,17 @@ To learn how to install GP Premium, check out our documentation [here](https://d
 In most cases, #1 will work fine and is way easier.
 
 == Changelog ==
+
+= 2.5.0 =
+* Feature: Font Library
+* Feature: Install Google Fonts locally
+* Feature: Upload custom fonts locally
+* Fix: Apply button color settings to WooCommerce block buttons
+* Fix: WooCommerce button typography
+* Fix: Check if `DISALLOW_FILE_EDIT` is set to true for PHP Elements
+* Fix: Use up to date react render functions
+* Tweak: Allow Display Rules metabox to collapse
+* Accessibility: Add aria-label to secondary navigation
 
 = 2.4.1 =
 * Security: Harden variable against XSS attacks

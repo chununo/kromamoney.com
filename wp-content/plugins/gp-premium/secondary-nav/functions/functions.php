@@ -702,13 +702,36 @@ if ( ! function_exists( 'generate_secondary_navigation_position' ) ) {
 		if ( has_nav_menu( 'secondary' ) ) :
 			do_action( 'generate_before_secondary_navigation' );
 
-			$microdata = ' itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"';
+			$classes    = generate_get_secondary_navigation_class();
+			$classes    = implode( ' ', $classes );
+			$attributes = [
+				'id'         => 'secondary-navigation',
+				'aria-label' => esc_attr__( 'Secondary', 'gp-premium' ),
+				'class'      => $classes,
+			];
+			$microdata  = '';
 
-			if ( function_exists( 'generate_get_schema_type' ) && 'microdata' !== generate_get_schema_type() ) {
-				$microdata = '';
+			if ( function_exists( 'generate_get_schema_type' ) && 'microdata' === generate_get_schema_type() ) {
+				$attributes['itemtype']  = 'https://schema.org/SiteNavigationElement';
+				$attributes['itemscope'] = true;
+				$microdata               = ' itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"';
+			}
+
+			$secondary_nav_attributes = sprintf(
+				'id="secondary-navigation" aria-label="%1$s" class="%2$s"%3$s"',
+				esc_attr__( 'Secondary', 'gp-premium' ),
+				esc_attr( $classes ),
+				$microdata
+			);
+
+			if ( function_exists( 'generate_get_attr' ) ) {
+				$secondary_nav_attributes = generate_get_attr(
+					'secondary-navigation',
+					$attributes
+				);
 			}
 			?>
-			<nav id="secondary-navigation" <?php generate_secondary_navigation_class(); ?><?php echo $microdata; // phpcs:ignore -- No escaping needed. ?>>
+			<nav <?php echo $secondary_nav_attributes; // phpcs:ignore -- No escaping needed. ?>>
 				<div <?php generate_inside_secondary_navigation_class(); ?>>
 					<?php do_action( 'generate_inside_secondary_navigation' ); ?>
 					<button class="menu-toggle secondary-menu-toggle">

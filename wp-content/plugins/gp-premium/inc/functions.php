@@ -150,3 +150,34 @@ function generate_premium_get_wp_filesystem() {
 
 	return $wp_filesystem;
 }
+
+/**
+ * Get our script dependencies and version.
+ *
+ * @param string $filename The filename to use.
+ * @param array  $fallback_assets The assets to fallback to.
+ */
+function generate_premium_get_enqueue_assets(
+	$filename = '',
+	$fallback_assets = array(
+		'dependencies' => array(),
+		'version' => '',
+	)
+) {
+	if ( ! $filename ) {
+		return $fallback_assets;
+	}
+
+	$assets_file = GP_PREMIUM_DIR_PATH . 'dist/' . $filename . '.asset.php';
+	$compiled_assets = file_exists( $assets_file )
+		? require $assets_file
+		: false;
+
+	$assets =
+		isset( $compiled_assets['dependencies'] ) &&
+		isset( $compiled_assets['version'] )
+		? $compiled_assets
+		: $fallback_assets;
+
+	return $assets;
+}

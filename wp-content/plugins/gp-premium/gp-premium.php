@@ -3,8 +3,8 @@
  * Plugin Name: GP Premium
  * Plugin URI: https://generatepress.com
  * Description: The entire collection of GeneratePress premium modules.
- * Version: 2.4.1
- * Requires at least: 5.2
+ * Version: 2.5.0
+ * Requires at least: 6.1
  * Requires PHP: 7.2
  * Author: Tom Usborne
  * Author URI: https://generatepress.com
@@ -19,13 +19,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'GP_PREMIUM_VERSION', '2.4.1' );
+define( 'GP_PREMIUM_VERSION', '2.5.0' );
 define( 'GP_PREMIUM_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GP_PREMIUM_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'GP_LIBRARY_DIRECTORY', plugin_dir_path( __FILE__ ) . 'library/' );
 define( 'GP_LIBRARY_DIRECTORY_URL', plugin_dir_url( __FILE__ ) . 'library/' );
 
+require_once GP_PREMIUM_DIR_PATH . 'inc/functions.php';
+require_once GP_PREMIUM_DIR_PATH . 'inc/deprecated.php';
 require_once GP_PREMIUM_DIR_PATH . 'inc/class-rest.php';
+require_once GP_PREMIUM_DIR_PATH . 'inc/class-singleton.php';
 
 if ( ! function_exists( 'generatepress_is_module_active' ) ) {
 	/**
@@ -132,12 +135,10 @@ function generate_premium_load_modules() {
 }
 
 // General functionality.
-require_once GP_PREMIUM_DIR_PATH . 'inc/functions.php';
 require_once GP_PREMIUM_DIR_PATH . 'general/class-external-file-css.php';
 require_once GP_PREMIUM_DIR_PATH . 'general/smooth-scroll.php';
 require_once GP_PREMIUM_DIR_PATH . 'general/icons.php';
 require_once GP_PREMIUM_DIR_PATH . 'general/enqueue-scripts.php';
-require_once GP_PREMIUM_DIR_PATH . 'inc/deprecated.php';
 
 // Load our Dashboard functions once the theme has loaded.
 require_once GP_PREMIUM_DIR_PATH . 'inc/class-dashboard.php';
@@ -152,6 +153,16 @@ if ( is_admin() ) {
 
 	if ( generatepress_is_module_active( 'generate_package_site_library', 'GENERATE_SITE_LIBRARY' ) && version_compare( PHP_VERSION, '5.4', '>=' ) && ! defined( 'GENERATE_DISABLE_SITE_LIBRARY' ) ) {
 		require_once GP_PREMIUM_DIR_PATH . 'site-library/class-site-library.php';
+	}
+}
+
+if ( generatepress_is_module_active( 'generate_package_font_library', 'GENERATE_FONT_LIBRARY' ) ) {
+	require_once GP_PREMIUM_DIR_PATH . 'font-library/class-font-library.php';
+	require_once GP_PREMIUM_DIR_PATH . 'font-library/class-font-library-rest.php';
+	require_once GP_PREMIUM_DIR_PATH . 'font-library/class-font-library-optimize.php';
+
+	if ( is_admin() ) {
+		require_once GP_PREMIUM_DIR_PATH . 'font-library/class-font-library-cpt.php';
 	}
 }
 

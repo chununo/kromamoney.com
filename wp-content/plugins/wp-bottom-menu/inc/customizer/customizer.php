@@ -395,6 +395,35 @@ class WPBottomMenu_Customizer{
                     'section'  => 'wpbottommenu_section_customize',
                 )));
 
+                /*******************************************PERSONALIZADO******************************************************/
+                /** Parte que modifíca el modal */
+                $wp_customize->add_setting( 'wpbottommenu_textcolor_modal', array(
+                    'default' => '#ffffff',
+                    'section'  => 'wpbottommenu_section_customize',
+                    'sanitize_callback' => 'sanitize_hex_color',
+                    'type' => 'option'
+                ));
+
+                $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'wpbottommenu_textcolor_modal', array(
+                    'label'    => __( 'Menu Modal Text Color', 'wp-bottom-menu' ), 
+                    'section'  => 'wpbottommenu_section_customize',
+                )));
+                
+                $wp_customize->add_setting( 'wpbottommenu_bgcolor_modal', array(
+                    'default' => '#000000',
+                    'section'  => 'wpbottommenu_section_customize',
+                    'sanitize_callback' => 'sanitize_hex_color',
+                    'type' => 'option'
+                ));
+
+                $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'wpbottommenu_bgcolor_modal', array(
+                    'label'    => __( 'Menu Modal Background Color', 'wp-bottom-menu' ), 
+                    'section'  => 'wpbottommenu_section_customize',
+                )));
+
+               /*******************************************FIN PERSONALIZADO******************************************************/
+
+
                 $wp_customize->add_setting( 'wpbottommenu_disable_title' , array(
                     'default'     => false,
                     'type'        => 'option',
@@ -563,6 +592,14 @@ class WPBottomMenu_Customizer{
                 --wpbottommenu-zindex: <?php echo get_option( 'wpbottommenu_zindex', '9999' ); ?>;
                 --wpbottommenu-cart-count-bgcolor: <?php echo get_option( 'wpbottommenu_cart_count_bgcolor', '#ff0000' );?>;
                 --wpbottommenu-wrapper-padding: <?php echo get_option( 'wpbottommenu_wrapper_padding', '10' );?>px 0;
+
+                /*********************************PERS**********************************************/
+                --wpbottommenu-text-color-modal: <?php echo get_option( 'wpbottommenu_textcolor_modal', '#ffffff' );?>;
+                --wpbottommenu-bgcolor-modal: <?php echo get_option( 'wpbottommenu_bgcolor_modal', '#000000' );?>;
+
+                /*********************************FIN**********************************************/
+
+
             }
 
         </style>

@@ -93,6 +93,7 @@ function generate_elements_dashboard_tab( $tabs ) {
 		'name' => __( 'Elements', 'gp-premium' ),
 		'url' => admin_url( 'edit.php?post_type=gp_elements' ),
 		'class' => 'edit-gp_elements' === $screen->id ? 'active' : '',
+		'id' => 'gp-elements-tab',
 	);
 
 	return $tabs;

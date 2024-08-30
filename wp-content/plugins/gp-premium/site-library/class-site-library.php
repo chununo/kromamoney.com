@@ -180,6 +180,7 @@ class GeneratePress_Site_Library {
 			'name' => __( 'Site Library', 'gp-premium' ),
 			'url' => admin_url( 'themes.php?page=generatepress-library' ),
 			'class' => 'appearance_page_generatepress-library' === $screen->id ? 'active' : '',
+			'id' => 'gp-site-library-tab',
 		);
 
 		return $tabs;

@@ -112,7 +112,7 @@ class GeneratePress_Elements_Helper {
 	public static function should_execute_php() {
 		$php = true;
 
-		if ( defined( 'DISALLOW_FILE_EDIT' ) ) {
+		if ( defined( 'DISALLOW_FILE_EDIT' ) && true === DISALLOW_FILE_EDIT ) {
 			$php = false;
 		}
 

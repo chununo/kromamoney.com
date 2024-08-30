@@ -344,7 +344,33 @@ final class WPBottomMenu{
                         'container'      => 'ul',
                         'menu_id'        => 'wpbm-nav',
                         'menu_class'     => 'wpbm-nav-items',
-                    ) );
+                        ) );
+                        
+                    $args = apply_filters( 'wp_nav_menu_args', array(
+                        'menu'           => 'wpbm_custom',
+                        'container'      => 'ul',
+                        'menu_id'        => 'wpbm-nav',
+                        'menu_class'     => 'wpbm-nav-items',
+                        )  );
+                        
+                        $json = json_encode($args);
+                        $args = (object)$args;
+                        
+                        echo "<script>console.log(JSON.parse(" . var_export($json, true) . "));</script>";
+
+                        $menu = wp_get_nav_menu_object( $args->menu );
+                        $json = json_encode($menu);
+                        echo "<script>console.log(JSON.parse(" . var_export($json, true) . "));</script>";
+	                    $locations = get_nav_menu_locations();
+                        $json = json_encode($locations);
+                        echo "<script>console.log(JSON.parse(" . var_export($json, true) . "));</script>";
+                        $menus = wp_get_nav_menus();
+                        echo "<script>console.log(JSON.parse(" .var_export(json_encode($menus),true) . "));</script>";
+                        $menu_items = wp_get_nav_menu_items( $menu->term_id, array( 'update_post_term_cache' => false ) );
+                        echo "<script>console.log(JSON.parse(" .var_export(json_encode($menu_items),true) . "));</script>";
+
+                        
+
                 } else {
                     esc_html_e( 'Add a menu in "WP Dashboard->Appearance->Menus" and select Display location "WP Bottom Menu"', 'wp-bottom-menu' );
                 }

@@ -46,9 +46,9 @@ td.generate-element-row-content {
     width: 75%;
 }
 
-#generate_premium_elements .handlediv,
-#generate_premium_elements .hndle,
-#generate_premium_elements .postbox-header {
+.metabox-holder #generate_premium_elements .handlediv,
+.metabox-holder #generate_premium_elements .hndle,
+.metabox-holder #generate_premium_elements .postbox-header {
 	display: none;
 }
 
@@ -138,6 +138,10 @@ ul.element-metabox-tabs {
     display: flex;
     width: 100%;
     overflow: hidden;
+}
+
+.edit-post-layout__metaboxes ul.element-metabox-tabs {
+	margin: 0;
 }
 
 ul.element-metabox-tabs li {

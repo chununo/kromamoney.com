@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": "2",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "futura-light",
+					"slug": "futura-light",
+					"fontFace": [
+						{
+							"fontFamily": "futura-light",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://servidor-1.com/kromamoney.com/wp-content/uploads/useanyfont/7977Futura-Light.woff2"
+						}
+					],
+					"isUAF": true
+				},
+				{
+					"fontFamily": "futura-condensed",
+					"slug": "futura-condensed",
+					"fontFace": [
+						{
+							"fontFamily": "futura-condensed",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://servidor-1.com/kromamoney.com/wp-content/uploads/useanyfont/7367Futura-Condensed.woff2"
+						}
+					],
+					"isUAF": true
+				},
+				{
+					"fontFamily": "futura",
+					"slug": "futura",
+					"fontFace": [
+						{
+							"fontFamily": "futura",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://servidor-1.com/kromamoney.com/wp-content/uploads/useanyfont/2810Futura.woff2"
+						}
+					],
+					"isUAF": true
+				}
+			]
+		}
+	}
+}

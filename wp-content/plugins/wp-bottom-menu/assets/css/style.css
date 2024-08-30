@@ -150,8 +150,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    background: var(--wpbottommenu-bgcolor);
-    color: var(--wpbottommenu-text-color);
+    background: var(--wpbottommenu-bgcolor-modal);
+    color: var(--wpbottommenu-text-color-modal);
 }
 
 .wp-bottom-menu-nav-wrapper.active{

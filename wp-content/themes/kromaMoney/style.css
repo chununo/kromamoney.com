@@ -11,10 +11,78 @@
 
  /* == Add your own styles below this line ==
 --------------------------------------------*/
-body {
-  background-color: #1c1c1c;
+
+/* Establece un color de fondo global para todos los elementos */
+body, .et_pb_module, .et_pb_row, .et_pb_section {
+    background-color: #1a1a1a !important; /* Reemplaza con el color que prefieras */
 }
 
+/***********************************/
+
+/* Ocultar completamente el Toggle por defecto */
+.custom-toggle {
+    display: none; /* Oculta el contenedor del Toggle */
+    margin-bottom: 20px; /* Espaciado entre los Toggles, ajusta según sea necesario */
+}
+
+/* Mostrar el título del Toggle */
+.custom-toggle .et_pb_toggle_title {
+    display: block; /* Mostrar el título */
+    cursor: pointer; /* Cambiar el cursor para indicar que es clicable */
+    font-weight: bold; /* Ajusta el estilo del título como desees */
+    margin-bottom: 10px; /* Espacio entre el título y el contenido */
+}
+
+/* Mostrar el contenido del Toggle cuando esté abierto */
+.custom-toggle.et_pb_toggle_open {
+    display: block; /* Muestra el contenedor del Toggle cuando está abierto */
+}
+
+/* Asegurar que el contenido dentro del Toggle esté visible */
+.custom-toggle.et_pb_toggle_open .et_pb_toggle_content {
+    display: block !important; /* Asegura que el contenido esté visible */
+}
+
+/* Estilo para la imagen que actuará como el título del Toggle */
+.toggle-title-image {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 240px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+/***********************************/
+
+.wp-bottom-menu{
+	width: 97%;
+	border-radius: 10px;
+	margin: 0 5px 5px;
+}
+
+.wp-bottom-menu-item span {
+  text-align: center;
+}
+
+/*
+
+.wp-bottom-menu {
+  display: none;
+  background: var(--wpbottommenu-bgcolor);
+  width: 97%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: space-around;
+  padding: var(--wpbottommenu-wrapper-padding);
+  box-shadow: 0 -5px 10px rgba(0,0,0, 0.1);
+  z-index: var(--wpbottommenu-zindex);
+  transition: all 200ms;
+  border-radius: 10px;
+  margin: 0 5px 5px;
+}
+
+*/
 /* Eliminamos el padding de las filas con fondo de imagen o color */
 
 .et_pb_section {
@@ -25,7 +93,7 @@ body {
  .et_pb_with_background .et_pb_row{
 	width: 100% !important;
 }
-/*
+
 .site-logo.mobile-header-logo  {
     position: absolute;
     top: 0;
@@ -39,12 +107,12 @@ body {
 }
 
 #mobile-header {
-  background-color: #FE2E6F;
+  background-color: #e5007e !important;
 }
-*/
-.menuFlagSize{
-	width: 90px;
-	height: 30px;	
+
+.site-logo.mobile-header-logo img{
+  	height: 34px !important;
+	padding: 14px 0 0 0 !important;
 }
 
 

@@ -176,7 +176,6 @@
 	.wc-columns-container .products,
 	.woocommerce .related ul.products,
 	.woocommerce .up-sells ul.products {
-		display: -ms-grid;
 		display: grid;
 		grid-gap: 50px;
 		width: 100%;

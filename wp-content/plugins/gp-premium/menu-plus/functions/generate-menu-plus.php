@@ -1509,7 +1509,7 @@ function generate_do_off_canvas_toggle_button() {
 		$icon = apply_filters(
 			'generate_off_canvas_toggle_output',
 			sprintf(
-				'<span class="menu-bar-item slideout-toggle hide-on-mobile %2$s"><a href="#" role="button"%4$s>%1$s%3$s</a></span>',
+				'<span class="menu-bar-item slideout-toggle hide-on-mobile %2$s"><a id="testing" href="#" role="button"%4$s>%1$s%3$s</a></span>',
 				$svg_icon,
 				$svg_icon ? 'has-svg-icon' : '',
 				'' !== $settings['off_canvas_desktop_toggle_label'] ? '<span class="off-canvas-toggle-label">' . wp_kses_post( $settings['off_canvas_desktop_toggle_label'] ) . '</span>' : '',
