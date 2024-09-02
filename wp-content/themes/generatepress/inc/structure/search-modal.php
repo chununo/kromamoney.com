@@ -21,7 +21,8 @@ function generate_do_search_modal() {
 	<div class="gp-modal gp-search-modal" id="gp-search">
 		<div class="gp-modal__overlay" tabindex="-1" data-gpmodal-close>
 			<div class="gp-modal__container">
-				<?php do_action( 'generate_inside_search_modal' ); ?>
+				<?php echo do_shortcode("[wd_asp id=1]");	?>
+				<!-- <?php do_action( 'generate_inside_search_modal' ); ?> -->
 			</div>
 		</div>
 	</div>
@@ -36,6 +37,7 @@ function generate_do_search_modal_trigger() {
 		return;
 	}
 	?>
+
 	<span class="menu-bar-item">
 		<a href="#" role="button" aria-label="<?php _e( 'Open search', 'generatepress' ); ?>" data-gpmodal-trigger="gp-search"><?php echo generate_get_svg_icon( 'search', true ); // phpcs:ignore -- Escaped in function. ?></a>
 	</span>
