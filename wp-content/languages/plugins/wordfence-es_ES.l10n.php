@@ -1,11 +1,11 @@
 <?php
-return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2024-08-01 08:43:09+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Wordfence Security &#8211; Firewall, Malware Scan, and Login Security - Stable (latest release)','language'=>'es','messages'=>['Seek error occurred in file: %s - Skipping.'=>'Se ha producido un error de búsqueda en el archivo %s - Omitiendo.','Page not found'=>'Página no encontrada','Setting'=>'Ajuste','Quick Scan'=>'Exploración rápida','<strong>ERROR</strong>: The password could not be changed. Please choose a stronger password and try again. A strong password will follow these guidelines: <ul class="wf-password-requirements">
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2024-09-10 05:45:54+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Wordfence Security &#8211; Firewall, Malware Scan, and Login Security - Stable (latest release)','language'=>'es','messages'=>['Seek error occurred in file: %s - Skipping.'=>'Se ha producido un error de búsqueda en el archivo %s - Omitiendo.','Page not found'=>'Página no encontrada','Setting'=>'Ajuste','Quick Scan'=>'Exploración rápida','<strong>ERROR</strong>: The password could not be changed. Please choose a stronger password and try again. A strong password will follow these guidelines: <ul class="wf-password-requirements">
 					<li>At least 12 characters</li>
 					<li>Uppercase and lowercase letters</li>
 					<li>At least one symbol</li>
 					<li>At least one number</li>
 					<li>Avoid common words or sequences of letters/numbers</li>
-				</ul>'=>'<strong>ERROR</strong>: No se ha podido cambiar la contraseña. Por favor, elige una contraseña más segura e inténtalo de nuevo. Una contraseña segura seguirá estas pautas: <ul class="wf-password-requirements">
+				</ul>'=>'<strong>ERROR</strong>: No se ha podido cambiar la contraseña. Por favor, elige una contraseña más segura e inténtalo de nuevo. Una contraseña segura seguirá estas directrices: <ul class="wf-password-requirements">
 					<li>Al menos 12 caracteres</li>.
 					<li>Letras mayúsculas y minúsculas</li>
 					<li>Al menos un símbolo</li>
