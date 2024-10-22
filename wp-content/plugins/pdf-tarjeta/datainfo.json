@@ -1,0 +1,156 @@
+ [
+	{
+		name : "400k",
+		styles: [
+			{name: "400K",
+				image : "400K/400K.png",
+				inputs : [
+					{name:"name", font:"140px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:1100,y:810},
+				]
+			}
+		]
+	},
+	{
+		name : "BEKAS",
+		styles: [
+			{name: "BEKAS",
+				image : "BEKAS/BEKAS.jpg",
+				inputs : [
+					{name:"name", font:"150px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:1800,y:620},
+				]
+			}
+		]
+	},
+	{
+		name : "Bienvenida a rango",
+		styles: [
+			{name: "Master",
+				image : "BIENVENIDA_A_RANGO/GRIS1.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Plata",
+				image : "BIENVENIDA_A_RANGO/DORADO1.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Oro",
+				image : "BIENVENIDA_A_RANGO/DORADO2.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Platino",
+				image : "BIENVENIDA_A_RANGO/AZUL1.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Rubi",
+				image : "BIENVENIDA_A_RANGO/AZUL2.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Zafiro",
+				image : "BIENVENIDA_A_RANGO/ROJO1.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Esmeralda",
+				image : "BIENVENIDA_A_RANGO/ROJO2.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			},
+			{name: "Diamante",
+				image : "BIENVENIDA_A_RANGO/ROJO3.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"cantidad", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:2878,y:420, toText:"concepto"},
+					{name:"concepto", font:"60px futura-light", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:1240},
+				]
+			}
+		]
+	},
+	{
+		name : "Lider alfa",
+		styles: [
+			{name: "Lider alfa",
+				image : "LIDER_ALFA/LIDERALFA.png",
+				inputs : [
+					{name:"name", font:"150px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:162,y:820},
+					{name:"concepto", font:"150px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"white",x:200,y:1240},
+				]
+			}
+		]
+	},
+	{
+		name : "Motors",
+		styles: [
+			{name: "Motors",
+				image : "MOTORS/MOTORS.png",
+				inputs : [
+					{name:"name", font:"140px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:1100,y:810},
+				]
+			}
+		]
+	},
+	{
+		name : "Viaje de playa",
+		styles: [
+			{name: "Viaje de playa",
+				image : "VIAJE_DE_PLAYA/VIAJEPLAYA.png",
+				inputs : [
+					{name:"name", font:"170px futura-condensed", textAlign : "left", textBaseline:'middle', fillStyle:"black",x:400,y:600},
+					{name:"name2", font:"50px futura", textAlign : "left", textBaseline:'middle', fillStyle:"black",x:2570,y:420},
+					{name:"fecha", font:"50px futura", textAlign : "left", textBaseline:'middle', fillStyle:"black",x:2570,y:630},
+				]
+			}
+		]
+	},
+	{
+		name : "Viaje Koins",
+		styles: [
+			{name: "150K",
+				image : "VIAJE_KOINS/150K.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1000},
+					{name:"name2", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1240},
+				]
+			},
+			{name: "300K",
+				image : "VIAJE_KOINS/300K.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1000},
+					{name:"name2", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1240},
+				]
+			},
+			{name: "600K",
+				image : "VIAJE_KOINS/600K.png",
+				inputs : [
+					{name:"name", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1000},
+					{name:"name2", font:"200px futura-condensed", textAlign : "center", textBaseline:'middle', fillStyle:"white",x:871,y:1240},
+				]
+			}
+			
+		]
+	}
+]

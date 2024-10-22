@@ -1,0 +1,110 @@
+/* Estilo para limitar el tamaño del canvas visualmente */
+.canva-style {
+    width: 100%;      /* El canvas ocupará el 100% del ancho de la pantalla */
+    /* max-width: 500px; El ancho máximo del canvas será 500px */
+    height: auto;     /* Mantiene la proporción del canvas */
+    border: 1px solid black;
+    margin : 15px 0px;
+
+}
+
+.dark-input {		
+    margin-bottom : 15px;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'futura-light', sans-serif; 
+    line-height: 1.5;
+    color: #f8f9fa; 
+    background-color: #343a40; 
+    background-clip: padding-box;
+    border: 1px solid #495057; 
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.dark-input:hover {
+    border-color: #6c757d; 
+}
+
+.dark-input:focus {
+    color: #f8f9fa; 
+    background-color: #343a40; 
+    border-color: #80bdff; 
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.dark-button {
+    margin-bottom : 15px;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #343a40; 
+    border: 1px solid #343a40; 
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    font-family: 'futura', sans-serif; 
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.dark-button:hover {
+    color: #fff; 
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.dark-button:active {
+    background-color: #1d2124; 
+    border-color: #171a1d;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.dark-button:disabled {
+    color: #6c757d;
+    background-color: #343a40;
+    border-color: #343a40;
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.dark-select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff; /* Texto blanco */
+    background-color: #343a40; /* Fondo oscuro */
+    border: 1px solid #495057; /* Borde más claro */
+    border-radius: 0.25rem;
+    appearance: none; /* Oculta la apariencia por defecto del select */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="white" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 5.5a.5.5 0 0 1 .8-.4L8 9.293l5.7-4.193a.5.5 0 0 1 .6.8l-6 4.5a.5.5 0 0 1-.6 0l-6-4.5z"/></svg>'); /* Icono de flecha */
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center; /* Ajusta la posición de la flecha */
+    background-size: 1rem; /* Tamaño de la flecha */
+    transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* Efecto de foco */
+.dark-select:focus {
+    color: #fff; /* Texto blanco */
+    background-color: #343a40; /* Mantiene el fondo oscuro */
+    border-color: #80bdff; /* Color del borde en foco */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra azul */
+}
+
+/* Deshabilitado */
+.dark-select:disabled {
+    background-color: #495057; /* Fondo gris oscuro para deshabilitado */
+    color: #6c757d; /* Texto gris */
+}
